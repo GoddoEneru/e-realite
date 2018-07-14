@@ -1,0 +1,188 @@
+.Voyages {
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px; }
+  .Voyages section {
+    box-sizing: border-box;
+    background: #fff; }
+    .Voyages section:first-of-type {
+      width: calc( 50% - 25px);
+      background: linear-gradient(#5d6a74, #162939);
+      position: fixed;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .Voyages section:first-of-type h1 {
+        display: inline-block;
+        font-size: 4em;
+        background: rgba(51, 143, 223, 0.8);
+        text-align: center;
+        padding: 10px 50px;
+        color: #fff; }
+    .Voyages section:last-of-type {
+      width: 50%;
+      padding: 70px 50px;
+      position: relative;
+      margin-left: 50%; }
+    .Voyages section .slider-voyage {
+      width: calc(100% + 50px);
+      margin-bottom: 73px; }
+      .Voyages section .slider-voyage .card article {
+        cursor: pointer;
+        margin-right: 20px;
+        background: #434343;
+        padding: 15px;
+        height: 270px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; }
+        .Voyages section .slider-voyage .card article div:first-of-type {
+          display: flex;
+          flex: 1;
+          align-items: center;
+          justify-content: center;
+          background: pink;
+          margin-bottom: 10px; }
+          .Voyages section .slider-voyage .card article div:first-of-type p {
+            display: inline-block;
+            font-size: 2.5em;
+            background: rgba(51, 143, 223, 0.8);
+            text-align: center;
+            padding: 10px 20px;
+            color: #fff;
+            font-weight: bold; }
+        .Voyages section .slider-voyage .card article div:last-of-type {
+          display: flex;
+          justify-content: space-between;
+          align-items: center; }
+          .Voyages section .slider-voyage .card article div:last-of-type p {
+            color: #fff; }
+            .Voyages section .slider-voyage .card article div:last-of-type p:first-of-type span:first-of-type {
+              font-weight: bold; }
+            .Voyages section .slider-voyage .card article div:last-of-type p:first-of-type span:last-of-type {
+              font-size: 0.85em; }
+            .Voyages section .slider-voyage .card article div:last-of-type p:last-of-type {
+              background: #338fdf;
+              font-weight: bold;
+              padding: 5px 15px; }
+    .Voyages section form {
+      width: 100%; }
+      .Voyages section form textarea {
+        width: 100%;
+        height: 70px;
+        margin-bottom: 10px;
+        padding: 10px;
+        box-sizing: border-box;
+        border: 2px #338fdf solid;
+        border-radius: 6px; }
+      .Voyages section form input {
+        padding: 10px 20px;
+        width: 100%;
+        background: #338fdf;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        box-sizing: border-box;
+        border: 0 #338fdf solid;
+        border-radius: 6px;
+        cursor: pointer; }
+
+.Voyage {
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px; }
+  .Voyage section {
+    box-sizing: border-box;
+    background: #fff; }
+    .Voyage section:first-of-type {
+      width: calc(50% - 25px);
+      position: fixed;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh; }
+      .Voyage section:first-of-type img {
+        cursor: pointer;
+        width: 30px;
+        z-index: 11;
+        position: fixed;
+        top: 20px;
+        left: 70px; }
+      .Voyage section:first-of-type p {
+        position: fixed;
+        z-index: 10;
+        font-size: 4em;
+        font-weight: bold;
+        background: rgba(51, 143, 223, 0.8);
+        text-align: center;
+        padding: 10px 50px;
+        color: #fff; }
+      .Voyage section:first-of-type .slider-photo {
+        width: 100%; }
+        .Voyage section:first-of-type .slider-photo .photo {
+          background: linear-gradient(#5d6a74, #162939);
+          height: 100vh; }
+          .Voyage section:first-of-type .slider-photo .photo article {
+            height: 100%; }
+    .Voyage section:last-of-type {
+      width: 50%;
+      padding: 70px 0px;
+      position: relative;
+      margin-left: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .Voyage section:last-of-type .marker {
+        width: 30px;
+        transform: translate(-15px, -30px); }
+      .Voyage section:last-of-type .reserve {
+        width: calc( 100% - 100px);
+        padding: 10px 20px;
+        text-align: center;
+        margin: 0 50px;
+        background: #338fdf;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        box-sizing: border-box;
+        border: 0 #338fdf solid;
+        border-radius: 6px; }
+      .Voyage section:last-of-type article {
+        margin-bottom: 50px;
+        padding: 0 50px;
+        width: 100%;
+        box-sizing: border-box; }
+        .Voyage section:last-of-type article:nth-of-type(2) {
+          padding: 0; }
+          .Voyage section:last-of-type article:nth-of-type(2) p {
+            padding: 0 50px;
+            font-size: 1.2em;
+            margin-bottom: 15px; }
+            .Voyage section:last-of-type article:nth-of-type(2) p span {
+              font-size: 1em; }
+        .Voyage section:last-of-type article:nth-of-type(3) {
+          display: flex;
+          flex-direction: row; }
+          .Voyage section:last-of-type article:nth-of-type(3) p {
+            flex: 1;
+            line-height: 2em;
+            font-size: 1.2em;
+            text-align: center; }
+            .Voyage section:last-of-type article:nth-of-type(3) p span {
+              font-size: 1em; }
+            .Voyage section:last-of-type article:nth-of-type(3) p:first-of-type {
+              border-right: 2px #f2f2f2 solid; }
+        .Voyage section:last-of-type article:last-of-type {
+          background: #f2f2f2;
+          padding: 30px 50px; }
+          .Voyage section:last-of-type article:last-of-type p {
+            margin-bottom: 15px; }
+          .Voyage section:last-of-type article:last-of-type ul {
+            list-style: none; }
+            .Voyage section:last-of-type article:last-of-type ul li {
+              margin-bottom: 10px; }
+        .Voyage section:last-of-type article .bluetitle {
+          font-weight: bold;
+          font-size: 1.2em;
+          color: #338fdf; }

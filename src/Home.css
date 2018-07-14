@@ -1,0 +1,59 @@
+.Home {
+  display: flex;
+  flex-direction: row;
+  height: 100vh; }
+  .Home section {
+    position: relative;
+    overflow: hidden;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#5d6a74, #162939);
+    text-decoration: none;
+    text-align: center; }
+    .Home section:last-of-type {
+      background: linear-gradient(#716060, #2c1313); }
+    .Home section:first-of-type a {
+      background: #338fdf; }
+    .Home section img {
+      position: absolute;
+      width: 500px;
+      right: -100px;
+      bottom: -120px;
+      z-index: 2; }
+    .Home section p {
+      width: 40vw;
+      color: rgba(255, 255, 255, 0.3);
+      transition: 0.3s;
+      font-size: 3em;
+      margin-bottom: 30px;
+      font-weight: bold; }
+    .Home section div {
+      position: relative;
+      z-index: 4;
+      transform: translateY(8px);
+      transition: 0.3s ease-in-out;
+      opacity: 0; }
+      .Home section div p {
+        color: rgba(255, 255, 255, 0.4);
+        font-size: 1em;
+        font-weight: 400;
+        margin-bottom: 30px; }
+      .Home section div a {
+        padding: 10px 20px;
+        background: #ff2c36;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        box-sizing: border-box;
+        border: 0 #fff solid;
+        border-radius: 6px; }
+    .Home section:hover p {
+      color: white; }
+    .Home section:hover div {
+      transform: translateY(0px);
+      opacity: 1; }
+      .Home section:hover div p {
+        color: rgba(255, 255, 255, 0.4); }
