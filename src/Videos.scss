@@ -1,0 +1,55 @@
+@import './_variables.scss';
+
+.Videos{
+  padding-left: 50px;
+  section{
+    background: $gris;
+    padding: 70px 30px 70px 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    article{
+      cursor: pointer;
+      margin-right: 20px;
+      margin-bottom: 30px;
+      background: #fff;
+      padding: 15px;
+      height: 270px;
+      width: 400px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      div{
+        &:first-of-type{
+          display: flex;
+          flex:1;
+          align-items: center;
+          justify-content: center;
+          margin-bottom: 10px;
+          p{
+            display: inline-block;
+            font-size: 2.5em;
+            background: $rouget;
+            text-align: center;
+            padding: 10px 20px;
+            color: #fff;
+            font-weight: $gras;
+          }
+        }
+        &:last-of-type{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          p{
+            span:first-of-type{
+              font-weight: $gras;
+            }
+            span:last-of-type{
+              font-size:0.85em;
+            }
+          }
+        }
+      }
+    }
+  }
+}

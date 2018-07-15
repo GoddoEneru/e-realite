@@ -1,0 +1,41 @@
+.Videos {
+  padding-left: 50px; }
+  .Videos section {
+    background: #434343;
+    padding: 70px 30px 70px 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+    .Videos section article {
+      cursor: pointer;
+      margin-right: 20px;
+      margin-bottom: 30px;
+      background: #fff;
+      padding: 15px;
+      height: 270px;
+      width: 400px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between; }
+      .Videos section article div:first-of-type {
+        display: flex;
+        flex: 1;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px; }
+        .Videos section article div:first-of-type p {
+          display: inline-block;
+          font-size: 2.5em;
+          background: rgba(255, 44, 54, 0.8);
+          text-align: center;
+          padding: 10px 20px;
+          color: #fff;
+          font-weight: bold; }
+      .Videos section article div:last-of-type {
+        display: flex;
+        justify-content: space-between;
+        align-items: center; }
+        .Videos section article div:last-of-type p span:first-of-type {
+          font-weight: bold; }
+        .Videos section article div:last-of-type p span:last-of-type {
+          font-size: 0.85em; }

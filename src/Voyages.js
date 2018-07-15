@@ -21,17 +21,19 @@ class SimpleSliderAventure extends React.Component {
         };
 
         const DataVoyages = Data.map( (d, index) => {
-            return (
-                <div className="card" style={{ width: 420 }}>
-                    <article key={index} onClick={() => this.props.chargeVoyage(d.id)}>
-                        <div style={{ background: d.image1 }}><p>{d.type}</p></div>
-                        <div><p><span>Destination :</span> {d.destination}<br/>
-                            <span>{d.date} - {d.nbJours}</span></p>
-                            <p>{d.prix}</p>
-                        </div>
-                    </article>
-                </div>
-            );
+            if (d.type === "#AVENTURE"){
+                return (
+                    <div key={index} className="card" style={{ width: 420 }}>
+                        <article onClick={() => this.props.chargeVoyage(d.id)}>
+                            <div style={{ background: d.image1 }}><p>{d.type}</p></div>
+                            <div><p><span>Destination :</span> {d.destination}<br/>
+                                <span>{d.date} - {d.nbJours}</span></p>
+                                <p>{d.prix}</p>
+                            </div>
+                        </article>
+                    </div>
+                );
+            }
         });
 
         return (
@@ -53,35 +55,26 @@ class SimpleSliderJob extends React.Component {
             slidesToScroll: 1,
             variableWidth: true
         };
+
+        const DataVoyages2 = Data.map( (d, index) => {
+            if (d.type === "#MINI-JOB"){
+                return (
+                    <div key={index} className="card" style={{ width: 420 }}>
+                        <article onClick={() => this.props.chargeVoyage(d.id)}>
+                            <div style={{ background: d.image1 }}><p>{d.type}</p></div>
+                            <div><p><span>Destination :</span> {d.destination}<br/>
+                                <span>{d.date} - {d.nbJours}</span></p>
+                                <p>{d.prix}</p>
+                            </div>
+                        </article>
+                    </div>
+                );
+            }
+        });
+
         return (
             <Slider className="slider-voyage" {...settings}>
-                <div className="card" style={{ width: 420 }}>
-                    <article>
-                        <div><p>#MINI-JOB</p></div>
-                        <div><p><span>Destination :</span> Chamonix-Mont Blanc<br/>
-                            <span>12 au 25 Novembre - 15 jours</span></p>
-                            <p>3000 €</p>
-                        </div>
-                    </article>
-                </div>
-                <div className="card" style={{ width: 420 }}>
-                    <article>
-                        <div><p>#MINI-JOB</p></div>
-                        <div><p><span>Destination :</span> Chamonix-Mont Blanc<br/>
-                            <span>12 au 25 Novembre - 15 jours</span></p>
-                            <p>3000 €</p>
-                        </div>
-                    </article>
-                </div>
-                <div className="card" style={{ width: 420 }}>
-                    <article>
-                        <div><p>#MINI-JOB</p></div>
-                        <div><p><span>Destination :</span> Chamonix-Mont Blanc<br/>
-                            <span>12 au 25 Novembre - 15 jours</span></p>
-                            <p>3000 €</p>
-                        </div>
-                    </article>
-                </div>
+                {DataVoyages2}
             </Slider>
         );
     }
@@ -132,7 +125,7 @@ export class Voyages extends Component {
                         <h2 className="titre-voyage">Voyages "Aventure"</h2>
                         <SimpleSliderAventure chargeVoyage={this.chargeVoyage} />
                         <h2 className="titre-voyage">Voyages "Mini-job"</h2>
-                        <SimpleSliderJob/>
+                        <SimpleSliderJob chargeVoyage={this.chargeVoyage} />
                         <h2 className="titre-voyage">Une idée de voyage ?</h2>
                         <form>
                         <textarea placeholder="une idée..." name="idee">
@@ -146,8 +139,11 @@ export class Voyages extends Component {
         return (
             <div className="Voyage">
                 <section>
-                    <img src={fleche} alt="retour aux voyages" onClick={this.quitteVoyage}/>
-                    <p>{Data[this.state.id].type}</p>
+                    <div className="retour">
+                        <img src={fleche} alt="retour aux voyages" onClick={this.quitteVoyage}/>
+                        <p>Retour</p>
+                    </div>
+                    <p className="type">{Data[this.state.id].type}</p>
                     <Slider {...settings}>
                         <div className="photo">
                             <article style={{background: Data[this.state.id].image1}}/>

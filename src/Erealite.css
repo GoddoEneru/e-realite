@@ -1,0 +1,95 @@
+.Erealite {
+  padding-left: 50px; }
+  .Erealite section {
+    background: #434343;
+    padding: 70px 50px; }
+    .Erealite section h2 {
+      width: 100%;
+      color: #fff;
+      margin-bottom: 15px;
+      font-size: 1.3em; }
+    .Erealite section .retour {
+      position: absolute;
+      top: 20px;
+      left: 70px;
+      z-index: 11;
+      display: flex;
+      flex-direction: row;
+      align-items: center; }
+      .Erealite section .retour img {
+        cursor: pointer;
+        width: 30px; }
+      .Erealite section .retour p {
+        color: #fff;
+        margin-left: 10px;
+        transform: translateX(10px);
+        opacity: 0;
+        transition: 0.3s ease-in-out; }
+      .Erealite section .retour:hover p {
+        transform: translateX(0);
+        opacity: 1; }
+    .Erealite section .live {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin-bottom: 50px;
+      justify-content: center; }
+      .Erealite section .live .fullWidthLive {
+        width: 800px;
+        height: 450px; }
+        .Erealite section .live .fullWidthLive iframe {
+          height: 100%;
+          width: 100%; }
+      .Erealite section .live .infoErealite {
+        width: 300px;
+        margin-left: 30px;
+        color: #fff;
+        background: rgba(35, 35, 35, 0.8);
+        padding: 15px; }
+        .Erealite section .live .infoErealite h1 {
+          font-weight: bold;
+          font-size: 2.5em;
+          padding-bottom: 15px;
+          border-bottom: solid #777777 1px; }
+        .Erealite section .live .infoErealite p {
+          margin-top: 15px;
+          line-height: 1.5em; }
+    .Erealite section .episodes {
+      margin-bottom: 50px; }
+    .Erealite section .episodes .slider-episode .card article, .Erealite section .episodes .slider-meilleur .card article, .Erealite section .meilleurs .slider-episode .card article, .Erealite section .meilleurs .slider-meilleur .card article {
+      background: #fff;
+      margin-right: 20px;
+      height: 200px;
+      display: flex;
+      flex-direction: column;
+      cursor: pointer; }
+      .Erealite section .episodes .slider-episode .card article:hover div img, .Erealite section .episodes .slider-meilleur .card article:hover div img, .Erealite section .meilleurs .slider-episode .card article:hover div img, .Erealite section .meilleurs .slider-meilleur .card article:hover div img {
+        opacity: 0.7;
+        transform: scale(1); }
+      .Erealite section .episodes .slider-episode .card article:hover div span, .Erealite section .episodes .slider-meilleur .card article:hover div span, .Erealite section .meilleurs .slider-episode .card article:hover div span, .Erealite section .meilleurs .slider-meilleur .card article:hover div span {
+        opacity: 0.35; }
+      .Erealite section .episodes .slider-episode .card article div, .Erealite section .episodes .slider-meilleur .card article div, .Erealite section .meilleurs .slider-episode .card article div, .Erealite section .meilleurs .slider-meilleur .card article div {
+        background: pink;
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative; }
+        .Erealite section .episodes .slider-episode .card article div img, .Erealite section .episodes .slider-meilleur .card article div img, .Erealite section .meilleurs .slider-episode .card article div img, .Erealite section .meilleurs .slider-meilleur .card article div img {
+          width: 90px;
+          opacity: 0;
+          transform: scale(0.9);
+          transition: 0.3s ease-in-out; }
+        .Erealite section .episodes .slider-episode .card article div span, .Erealite section .episodes .slider-meilleur .card article div span, .Erealite section .meilleurs .slider-episode .card article div span, .Erealite section .meilleurs .slider-meilleur .card article div span {
+          background: #434343;
+          opacity: 0;
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          transition: 0.3s ease-in-out; }
+      .Erealite section .episodes .slider-episode .card article p, .Erealite section .episodes .slider-meilleur .card article p, .Erealite section .meilleurs .slider-episode .card article p, .Erealite section .meilleurs .slider-meilleur .card article p {
+        padding: 10px 15px; }
+        .Erealite section .episodes .slider-episode .card article p span:first-of-type, .Erealite section .episodes .slider-meilleur .card article p span:first-of-type, .Erealite section .meilleurs .slider-episode .card article p span:first-of-type, .Erealite section .meilleurs .slider-meilleur .card article p span:first-of-type {
+          font-weight: bold; }
+        .Erealite section .episodes .slider-episode .card article p span:last-of-type, .Erealite section .episodes .slider-meilleur .card article p span:last-of-type, .Erealite section .meilleurs .slider-episode .card article p span:last-of-type, .Erealite section .meilleurs .slider-meilleur .card article p span:last-of-type {
+          font-size: 0.85em; }
