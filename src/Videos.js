@@ -5,7 +5,7 @@ import Data from "./Data-erealite";
 import { Ereal } from "./Erealite";
 
 export class Videos extends Component {
-    state = {page: true, id : 0};
+    state = {page: false, id : 0};
 
     chargeErealite = (id) => {
         this.setState( () => {
