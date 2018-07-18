@@ -1,0 +1,102 @@
+@import './_variables.scss';
+
+.Menu{
+  width: 50px;
+  height: 100vh;
+  background: #fff;
+  box-shadow: 0px 0px 10px rgba( 0, 0, 0, 0.2);
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  padding: 70px 25px;
+  box-sizing: border-box;
+  transition: 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  span{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #ffffff;
+    border-radius: 25px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px rgba( 0, 0, 0, 0.2);
+    right: -25px;
+    top: calc(50vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    &:hover{
+      img{
+        transform: rotate(90deg);
+      }
+    }
+    &.MenuBleu{
+      background: $bleu;
+    }
+    &.MenuRouge{
+      background: $rouge;
+    }
+    img{
+      width: 30px;
+      transition: 0.3s ease-in-out;
+      &.rotation{
+        transform: rotate(90deg);
+      }
+    }
+  }
+  div{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+    &.show{
+      opacity: 1;
+    }
+    img{
+      width: 250px;
+    }
+    a{
+      font-size: 3em;
+      letter-spacing: 2px;
+      text-decoration: none;
+      color: $noir;
+      opacity: 0.7;
+      transition: 0.3s ease-in-out;
+      &:hover{
+        opacity: 1;
+      }
+      &:first-of-type{
+        font-weight: $gras;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #dddddd;
+        opacity: 0.9;
+        &.active{
+          color: $bleu;
+        }
+      }
+      &:nth-of-type(2){
+        font-weight: $gras;
+        padding-top: 30px;
+        margin-bottom: 15px;
+        opacity: 0.9;
+        &.active{
+          color: $rouge;
+        }
+      }
+      &.sousLien{
+        font-size: 1.2em;
+        margin-bottom: 10px;
+        letter-spacing: 0;
+      }
+    }
+  }
+}
+.MenuShow{
+  width: 300px;
+}

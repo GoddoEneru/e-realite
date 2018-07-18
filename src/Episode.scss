@@ -1,11 +1,11 @@
 @import './_variables.scss';
 
 .pageVideo{
+  overflow: hidden;
   section{
     display: flex;
     flex-direction: row;
     height: 100vh;
-    padding-bottom: 70px;
     margin-left: 50px;
     box-sizing: border-box;
     .retour{
@@ -39,34 +39,200 @@
       flex: 1;
       justify-content: center;
       align-items: center;
-      background: #333;
-      .widthVideo{
-        background: pink;
-        width: 800px;
-        height: 450px;
-        iframe{
-          width: 100%;
-          height: 100%;
+      background: #000;
+      div{
+        outline: none;
+        max-height: 100vh;
+      }
+      .barreProgVideo{
+        //position: fixed;
+        //width: calc (100% - 100px);
+        //bottom: 50px;
+        //left: 50px;
+      }
+      .controle{
+        position: fixed;
+        font-family: Arial;
+        font-size: 16px;
+        z-index: 99;
+        bottom: 40px;
+        left: 100px;
+        border: 0px solid #fff;
+        border-radius: 10px;
+        width: calc(100% - 550px);
+        background: $noir;
+        height: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .container{
+          margin: 0 20px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          img{
+            width: 30px;
+            cursor: pointer;
+            opacity: 0.7;
+            transition: 0.3s ease-in-out;
+            &:hover{
+              opacity: 1;
+            }
+          }
+          &:first-of-type{
+            max-width: 300px;
+            color: #fff;
+            //margin-left: 70px;
+            h1{
+              span{
+                font-weight: $regular;
+              }
+            }
+          }
+          &:nth-of-type(2){
+            width: 150px;
+            flex: 1;
+            justify-content: flex-start;
+            margin: 0;
+            padding: 0 20px;
+            box-sizing: border-box;
+            border-left: 1px solid #666;
+            border-right: 1px solid #666;
+            .play{
+              width: 40px;
+              margin: 0 15px;
+            }
+          }
+          &:last-of-type{
+            width: 120px;
+            align-self: flex-end;
+            cursor: pointer;
+            align-items: flex-end;
+            transform: translateY(-20px);
+            .volume:hover{
+              img{
+                opacity: 1;
+              }
+              .rangeslider{
+                display: block;
+              }
+            }
+            .volume{
+              width: 30px;
+              margin: 0;
+              display: flex;
+              flex-direction: column;
+              .rangeslider{
+                display: none;
+                width: 5px;
+                margin: 0 12.5px 10px 12.5px;
+                height: 100px;
+                background: #aaa;
+                .rangeslider__fill{
+                  background-color: $rouge;
+                }
+                .rangeslider__handle{
+                  width: 15px;
+                  height: 15px;
+                  border: 0px solid #fff;
+                  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+                  border-radius: 7.5px;
+                  left: -5px;
+                }
+              }
+            }
+          }
+        }
+      }
+      .controleFullScreen{
+        opacity: 0.3;
+        width: calc(100% - 100px);
+        left: 50px;
+        transition: 0.3s ease-in-out;
+        .container:last-of-type{
+          width: 75px;
+        }
+        .togglePlaylist{
+          display: none;
+        }
+        &:hover{
+          opacity: 1;
         }
       }
     }
     .commentaire{
       width: 400px;
-      background: $gris;
-    }
-    .controle{
-      position: fixed;
-      bottom: 0;
-      left: 50px;
-      width: calc(100% - 50px);
-      background: $noir;
-      height: 70px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      img{
-        width: 30px;
+      background: #333;
+      color: #fff;
+      position: relative;
+      .Playlist{
+        transform: translateX(400px);
+        display: flex;
+        width: 100%;
+        position: absolute;
+        flex-direction: column-reverse;
+        transition: 0.3s ease-in-out;
+        .itemPlaylist{
+          background: $gris;
+          height: 50px;
+          display: flex;
+          cursor: pointer;
+          flex-direction: row;
+          align-items: center;
+          margin-bottom: 10px;
+          &:hover{
+            background: #535353;
+            div{
+              img {
+                opacity: 0.7;
+                transform: scale(1);
+              }
+              span{
+                opacity: 0.35;
+              }
+            }
+          }
+          div{
+            width: 75px;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            img{
+              width: 40px;
+              opacity: 0;
+              transform: scale(0.9);
+              transition: 0.3s ease-in-out;
+            }
+            span{
+              background: $gris;
+              opacity: 0;
+              width: 100%;
+              height: 100%;
+              position: absolute;
+              transition: 0.3s ease-in-out;
+            }
+          }
+          p{
+            margin-left: 10px;
+            flex: 1;
+          }
+          .enCours{
+            width: 20px;
+            margin-right: 20px;
+          }
+        }
+        .itemPlaylistActive{
+          background: #535353;
+        }
       }
+      .PlaylistShow{
+        transform: translateX(0);
+      }
+    }
+    .commentaireFullScreen{
+      display: none;
     }
   }
 }

@@ -1,0 +1,81 @@
+.Menu {
+  width: 50px;
+  height: 100vh;
+  background: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  padding: 70px 25px;
+  box-sizing: border-box;
+  transition: 0.3s ease-in-out;
+  display: flex;
+  align-items: center; }
+  .Menu span {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #ffffff;
+    border-radius: 25px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    right: -25px;
+    top: calc(50vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer; }
+    .Menu span:hover img {
+      transform: rotate(90deg); }
+    .Menu span.MenuBleu {
+      background: #338fdf; }
+    .Menu span.MenuRouge {
+      background: #ff2c36; }
+    .Menu span img {
+      width: 30px;
+      transition: 0.3s ease-in-out; }
+      .Menu span img.rotation {
+        transform: rotate(90deg); }
+  .Menu div {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0;
+    transition: 0.3s ease-in-out; }
+    .Menu div.show {
+      opacity: 1; }
+    .Menu div img {
+      width: 250px; }
+    .Menu div a {
+      font-size: 3em;
+      letter-spacing: 2px;
+      text-decoration: none;
+      color: #232323;
+      opacity: 0.7;
+      transition: 0.3s ease-in-out; }
+      .Menu div a:hover {
+        opacity: 1; }
+      .Menu div a:first-of-type {
+        font-weight: bold;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #dddddd;
+        opacity: 0.9; }
+        .Menu div a:first-of-type.active {
+          color: #338fdf; }
+      .Menu div a:nth-of-type(2) {
+        font-weight: bold;
+        padding-top: 30px;
+        margin-bottom: 15px;
+        opacity: 0.9; }
+        .Menu div a:nth-of-type(2).active {
+          color: #ff2c36; }
+      .Menu div a.sousLien {
+        font-size: 1.2em;
+        margin-bottom: 10px;
+        letter-spacing: 0; }
+
+.MenuShow {
+  width: 300px; }

@@ -3,9 +3,10 @@ import './Videos.css';
 
 import Data from "./Data-erealite";
 import { Ereal } from "./Erealite";
+import {Menu} from './Menu';
 
 export class Videos extends Component {
-    state = {page: false, id : 0};
+    state = {page: this.props.location.state.page, id : this.props.location.state.id};
 
     chargeErealite = (id) => {
         this.setState( () => {
@@ -40,6 +41,7 @@ export class Videos extends Component {
         if(this.state.page){
             return (
                 <div className="Videos">
+                    <Menu couleur={true}/>
                     <section>
                         {Erealite}
                     </section>

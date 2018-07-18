@@ -7,6 +7,7 @@ import fleche from './images/pikuto.jpg';
 
 import Data from "./Data-voyages";
 import  {SimpleMap} from "./map";
+import {Menu} from "./Menu";
 
 class SimpleSliderAventure extends React.Component {
     render() {
@@ -118,6 +119,7 @@ export class Voyages extends Component {
         if(this.state.page){
             return (
                 <div className="Voyages">
+                    <Menu couleur={false}/>
                     <section>
                         <h1>#VOYAGES</h1>
                     </section>
@@ -138,6 +140,7 @@ export class Voyages extends Component {
         }
         return (
             <div className="Voyage">
+                <Menu couleur={false}/>
                 <section>
                     <div className="retour">
                         <img src={fleche} alt="retour aux voyages" onClick={this.quitteVoyage}/>

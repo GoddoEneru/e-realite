@@ -7,6 +7,7 @@ import Data2 from "./Data-vidéos";
 import fleche from './images/pikuto.jpg';
 import playHover from './images/picto-video2.svg';
 import {Episode} from "./Episode";
+import {Menu} from './Menu';
 
 class SliderEpisode extends React.Component {
     render() {
@@ -81,7 +82,7 @@ class SliderMeilleur extends React.Component {
 }
 
 export class Ereal extends Component {
-    state = {id : 0, cat: 1};
+    state = {id : 0, cat: 0};
 
     charge = (id, cat) => {
         this.setState( () => {
@@ -105,6 +106,7 @@ export class Ereal extends Component {
     render() {
         if(this.state.cat === 0){
             return <div className="Erealite">
+                <Menu couleur={true}/>
                 <section>
                     <div className="retour">
                         <img src={fleche} alt="retour aux erealité" onClick={this.props.quitteErealite}/>
@@ -133,7 +135,7 @@ export class Ereal extends Component {
         }
 
         if(this.state.cat === 1 || this.state.cat === 2){
-            return <Episode quitte={this.quitte}/>;
+            return <Episode quitte={this.quitte} idEp={this.state.id} idEreal={this.props.id} cat={this.state.cat}/>;
         }
 
         if(this.state.cat === 3){

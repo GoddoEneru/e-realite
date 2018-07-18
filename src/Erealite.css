@@ -69,7 +69,6 @@
       .Erealite section .episodes .slider-episode .card article:hover div span, .Erealite section .episodes .slider-meilleur .card article:hover div span, .Erealite section .meilleurs .slider-episode .card article:hover div span, .Erealite section .meilleurs .slider-meilleur .card article:hover div span {
         opacity: 0.35; }
       .Erealite section .episodes .slider-episode .card article div, .Erealite section .episodes .slider-meilleur .card article div, .Erealite section .meilleurs .slider-episode .card article div, .Erealite section .meilleurs .slider-meilleur .card article div {
-        background: pink;
         flex: 1;
         display: flex;
         align-items: center;

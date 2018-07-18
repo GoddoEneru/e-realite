@@ -1,55 +1,180 @@
-.pageVideo section {
-  display: flex;
-  flex-direction: row;
-  height: 100vh;
-  padding-bottom: 70px;
-  margin-left: 50px;
-  box-sizing: border-box; }
-  .pageVideo section .retour {
-    position: absolute;
-    top: 20px;
-    left: 70px;
-    z-index: 11;
+.pageVideo {
+  overflow: hidden; }
+  .pageVideo section {
     display: flex;
     flex-direction: row;
-    align-items: center; }
-    .pageVideo section .retour img {
-      cursor: pointer;
-      width: 30px; }
-    .pageVideo section .retour p {
+    height: 100vh;
+    margin-left: 50px;
+    box-sizing: border-box; }
+    .pageVideo section .retour {
+      position: absolute;
+      top: 20px;
+      left: 70px;
+      z-index: 11;
+      display: flex;
+      flex-direction: row;
+      align-items: center; }
+      .pageVideo section .retour img {
+        cursor: pointer;
+        width: 30px; }
+      .pageVideo section .retour p {
+        color: #fff;
+        margin-left: 10px;
+        transform: translateX(10px);
+        opacity: 0;
+        transition: 0.3s ease-in-out; }
+      .pageVideo section .retour:hover p {
+        transform: translateX(0);
+        opacity: 1; }
+    .pageVideo section .video {
+      display: flex;
+      flex: 1;
+      justify-content: center;
+      align-items: center;
+      background: #000; }
+      .pageVideo section .video div {
+        outline: none;
+        max-height: 100vh; }
+      .pageVideo section .video .controle {
+        position: fixed;
+        font-family: Arial;
+        font-size: 16px;
+        z-index: 99;
+        bottom: 40px;
+        left: 100px;
+        border: 0px solid #fff;
+        border-radius: 10px;
+        width: calc(100% - 550px);
+        background: #232323;
+        height: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center; }
+        .pageVideo section .video .controle .container {
+          margin: 0 20px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center; }
+          .pageVideo section .video .controle .container img {
+            width: 30px;
+            cursor: pointer;
+            opacity: 0.7;
+            transition: 0.3s ease-in-out; }
+            .pageVideo section .video .controle .container img:hover {
+              opacity: 1; }
+          .pageVideo section .video .controle .container:first-of-type {
+            max-width: 300px;
+            color: #fff; }
+            .pageVideo section .video .controle .container:first-of-type h1 span {
+              font-weight: 400; }
+          .pageVideo section .video .controle .container:nth-of-type(2) {
+            width: 150px;
+            flex: 1;
+            justify-content: flex-start;
+            margin: 0;
+            padding: 0 20px;
+            box-sizing: border-box;
+            border-left: 1px solid #666;
+            border-right: 1px solid #666; }
+            .pageVideo section .video .controle .container:nth-of-type(2) .play {
+              width: 40px;
+              margin: 0 15px; }
+          .pageVideo section .video .controle .container:last-of-type {
+            width: 120px;
+            align-self: flex-end;
+            cursor: pointer;
+            align-items: flex-end;
+            transform: translateY(-20px); }
+            .pageVideo section .video .controle .container:last-of-type .volume:hover img {
+              opacity: 1; }
+            .pageVideo section .video .controle .container:last-of-type .volume:hover .rangeslider {
+              display: block; }
+            .pageVideo section .video .controle .container:last-of-type .volume {
+              width: 30px;
+              margin: 0;
+              display: flex;
+              flex-direction: column; }
+              .pageVideo section .video .controle .container:last-of-type .volume .rangeslider {
+                display: none;
+                width: 5px;
+                margin: 0 12.5px 10px 12.5px;
+                height: 100px;
+                background: #aaa; }
+                .pageVideo section .video .controle .container:last-of-type .volume .rangeslider .rangeslider__fill {
+                  background-color: #ff2c36; }
+                .pageVideo section .video .controle .container:last-of-type .volume .rangeslider .rangeslider__handle {
+                  width: 15px;
+                  height: 15px;
+                  border: 0px solid #fff;
+                  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+                  border-radius: 7.5px;
+                  left: -5px; }
+      .pageVideo section .video .controleFullScreen {
+        opacity: 0.3;
+        width: calc(100% - 100px);
+        left: 50px;
+        transition: 0.3s ease-in-out; }
+        .pageVideo section .video .controleFullScreen .container:last-of-type {
+          width: 75px; }
+        .pageVideo section .video .controleFullScreen .togglePlaylist {
+          display: none; }
+        .pageVideo section .video .controleFullScreen:hover {
+          opacity: 1; }
+    .pageVideo section .commentaire {
+      width: 400px;
+      background: #333;
       color: #fff;
-      margin-left: 10px;
-      transform: translateX(10px);
-      opacity: 0;
-      transition: 0.3s ease-in-out; }
-    .pageVideo section .retour:hover p {
-      transform: translateX(0);
-      opacity: 1; }
-  .pageVideo section .video {
-    display: flex;
-    flex: 1;
-    justify-content: center;
-    align-items: center;
-    background: #333; }
-    .pageVideo section .video .widthVideo {
-      background: pink;
-      width: 800px;
-      height: 450px; }
-      .pageVideo section .video .widthVideo iframe {
+      position: relative; }
+      .pageVideo section .commentaire .Playlist {
+        transform: translateX(400px);
+        display: flex;
         width: 100%;
-        height: 100%; }
-  .pageVideo section .commentaire {
-    width: 400px;
-    background: #434343; }
-  .pageVideo section .controle {
-    position: fixed;
-    bottom: 0;
-    left: 50px;
-    width: calc(100% - 50px);
-    background: #232323;
-    height: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center; }
-    .pageVideo section .controle img {
-      width: 30px; }
+        position: absolute;
+        flex-direction: column-reverse;
+        transition: 0.3s ease-in-out; }
+        .pageVideo section .commentaire .Playlist .itemPlaylist {
+          background: #434343;
+          height: 50px;
+          display: flex;
+          cursor: pointer;
+          flex-direction: row;
+          align-items: center;
+          margin-bottom: 10px; }
+          .pageVideo section .commentaire .Playlist .itemPlaylist:hover {
+            background: #535353; }
+            .pageVideo section .commentaire .Playlist .itemPlaylist:hover div img {
+              opacity: 0.7;
+              transform: scale(1); }
+            .pageVideo section .commentaire .Playlist .itemPlaylist:hover div span {
+              opacity: 0.35; }
+          .pageVideo section .commentaire .Playlist .itemPlaylist div {
+            width: 75px;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative; }
+            .pageVideo section .commentaire .Playlist .itemPlaylist div img {
+              width: 40px;
+              opacity: 0;
+              transform: scale(0.9);
+              transition: 0.3s ease-in-out; }
+            .pageVideo section .commentaire .Playlist .itemPlaylist div span {
+              background: #434343;
+              opacity: 0;
+              width: 100%;
+              height: 100%;
+              position: absolute;
+              transition: 0.3s ease-in-out; }
+          .pageVideo section .commentaire .Playlist .itemPlaylist p {
+            margin-left: 10px;
+            flex: 1; }
+          .pageVideo section .commentaire .Playlist .itemPlaylist .enCours {
+            width: 20px;
+            margin-right: 20px; }
+        .pageVideo section .commentaire .Playlist .itemPlaylistActive {
+          background: #535353; }
+      .pageVideo section .commentaire .PlaylistShow {
+        transform: translateX(0); }
+    .pageVideo section .commentaireFullScreen {
+      display: none; }

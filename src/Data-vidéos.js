@@ -7,6 +7,7 @@ export default [
         nom: "Episode 8",
         date: "Mardi 22 Juin",
         image1: "url(" + lien1 + ") center/cover",
+        link: "https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
     },
     {
         id:1,
@@ -14,6 +15,7 @@ export default [
         nom: "Episode 7",
         date: "Lundi 21 Juin",
         image1: "url(" + lien1 + ") center/cover",
+        link: "http://media.w3.org/2010/05/bunny/trailer.mp4"
     },
     {
         id:2,
@@ -21,6 +23,7 @@ export default [
         nom: "Episode 6",
         date: "Samedi 19 Juin",
         image1: "url(" + lien1 + ") center/cover",
+        link: "https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
     },
     {
         id:3,
@@ -28,6 +31,7 @@ export default [
         nom: "Episode 5",
         date: "Vendredi 18 Juin",
         image1: "url(" + lien1 + ") center/cover",
+        link: "https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
     },
     {
         id:4,
@@ -35,6 +39,7 @@ export default [
         nom: "Episode 4",
         date: "Jeudi 17 Juin",
         image1: "url(" + lien1 + ") center/cover",
+        link: "https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
     },
     {
         id:5,
@@ -42,6 +47,7 @@ export default [
         nom: "Episode 3",
         date: "Mercredi 16 Juin",
         image1: "url(" + lien1 + ") center/cover",
+        link: "https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
     },
     {
         id:6,
@@ -49,6 +55,7 @@ export default [
         nom: "Episode 2",
         date: "Mardi 15 Juin",
         image1: "url(" + lien1 + ") center/cover",
+        link: "https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
     },
     {
         id:7,
@@ -56,6 +63,7 @@ export default [
         nom: "Episode 1",
         date: "Lundi 14 Juin",
         image1: "url(" + lien1 + ") center/cover",
+        link: "https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
     },
 
     {
@@ -64,6 +72,7 @@ export default [
         nom: "Meilleur 8",
         date: "Mardi 22 Juin",
         image1: "url(" + lien1 + ") center/cover",
+        link: "https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
     },
     {
         id:9,
@@ -71,6 +80,7 @@ export default [
         nom: "Meilleur 7",
         date: "Lundi 21 Juin",
         image1: "url(" + lien1 + ") center/cover",
+        link: "https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
     },
     {
         id:10,
@@ -78,6 +88,7 @@ export default [
         nom: "Meilleur 6",
         date: "Samedi 19 Juin",
         image1: "url(" + lien1 + ") center/cover",
+        link: "https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
     },
     {
         id:11,
@@ -85,6 +96,7 @@ export default [
         nom: "Meilleur 5",
         date: "Vendredi 18 Juin",
         image1: "url(" + lien1 + ") center/cover",
+        link: "https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
     },
     {
         id:12,
@@ -92,6 +104,7 @@ export default [
         nom: "Meilleur 4",
         date: "Jeudi 17 Juin",
         image1: "url(" + lien1 + ") center/cover",
+        link: "https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
     },
     {
         id:13,
@@ -99,6 +112,7 @@ export default [
         nom: "Meilleur 3",
         date: "Mercredi 16 Juin",
         image1: "url(" + lien1 + ") center/cover",
+        link: "https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
     },
     {
         id:14,
@@ -106,6 +120,7 @@ export default [
         nom: "Meilleur 2",
         date: "Mardi 15 Juin",
         image1: "url(" + lien1 + ") center/cover",
+        link: "https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
     },
     {
         id:15,
@@ -113,5 +128,6 @@ export default [
         nom: "Meilleur 1",
         date: "Lundi 14 Juin",
         image1: "url(" + lien1 + ") center/cover",
+        link: "https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
     },
 ];

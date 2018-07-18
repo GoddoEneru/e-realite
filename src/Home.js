@@ -20,7 +20,7 @@ export class Home extends Component {
                     <p>Regardez nos vidéos !</p>
                     <div>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At commodi corporis dolor ea fugit impedit molestiae molestias, natus nulla quae quas quidem sed voluptate. Atque expedita inventore minima placeat quidem!</p>
-                        <Link to="/Videos">bouton</Link>
+                        <Link to={{ pathname: '/Videos', state: { page: true, id: 0} }}>bouton</Link>
                     </div>
                     <img src={backvideo}/>
                 </section>
