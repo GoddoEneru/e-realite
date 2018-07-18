@@ -1,7 +1,6 @@
 .Home {
   display: flex;
-  flex-direction: row;
-  height: 100vh; }
+  flex-direction: row; }
   .Home section {
     position: relative;
     overflow: hidden;
@@ -62,4 +61,10 @@
   .Home {
     flex-direction: column; }
     .Home section p {
-      width: 90vw; } }
+      width: 90vw;
+      color: white; }
+    .Home section div {
+      transform: translateY(0px);
+      opacity: 1; }
+      .Home section div p {
+        color: rgba(255, 255, 255, 0.4); } }

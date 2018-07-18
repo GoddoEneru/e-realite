@@ -7,7 +7,7 @@ import backvoyage from './images/picto-voyage.svg';
 export class Home extends Component {
     render() {
         return (
-            <div className="Home">
+            <div className="Home" style={{height: window.innerHeight }}>
                 <section>
                     <p>Découvrez nos voyages !</p>
                     <div>

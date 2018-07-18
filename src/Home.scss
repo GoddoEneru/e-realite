@@ -3,7 +3,6 @@
 .Home{
   display: flex;
   flex-direction: row;
-  height: 100vh;
   section{
     position: relative;
     overflow: hidden;
@@ -82,6 +81,14 @@
     section{
       p{
         width: 90vw;
+        color: rgba(255, 255, 255, 1);
+      }
+      div{
+        transform: translateY(0px);
+        opacity: 1;
+        p{
+          color: rgba(255, 255, 255, 0.4);
+        }
       }
     }
   }

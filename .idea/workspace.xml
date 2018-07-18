@@ -3,25 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="e607d7d8-2c7e-4556-81e0-b0c3b75ab3ce" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data-erealite.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data-erealite.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data-vidéos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data-vidéos.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Episode.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Episode.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Episode.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Episode.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Episode.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Episode.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Erealite.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Erealite.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Erealite.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Erealite.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Erealite.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Erealite.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Videos.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Videos.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Videos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Videos.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Voyages.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Voyages.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Voyages.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Voyages.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,8 +24,8 @@
       <file leaf-file-name="Home.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="83" selection-start-line="22" selection-start-column="83" selection-end-line="22" selection-end-column="83" />
+            <state relative-caret-position="153">
+              <caret line="9" column="68" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -50,8 +36,17 @@
       <file leaf-file-name="Home.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Home.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="83" column="20" lean-forward="true" selection-start-line="83" selection-start-column="20" selection-end-line="83" selection-end-column="20" />
+            <state relative-caret-position="536">
+              <caret line="87" column="19" lean-forward="true" selection-start-line="87" selection-start-column="19" selection-end-line="87" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -66,7 +61,6 @@
       <list>
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/variables.scss" />
-        <option value="$PROJECT_DIR$/src/App.scss" />
         <option value="$PROJECT_DIR$/src/mapStyles.js" />
         <option value="$PROJECT_DIR$/src/Data-voyages.js" />
         <option value="$PROJECT_DIR$/src/map.js" />
@@ -84,9 +78,10 @@
         <option value="$PROJECT_DIR$/src/Data-erealite.js" />
         <option value="$PROJECT_DIR$/src/Bouton-Menu.js" />
         <option value="$PROJECT_DIR$/src/Videos.js" />
-        <option value="$PROJECT_DIR$/src/Home.js" />
         <option value="$PROJECT_DIR$/src/Menu.scss" />
         <option value="$PROJECT_DIR$/src/Menu.js" />
+        <option value="$PROJECT_DIR$/src/App.scss" />
+        <option value="$PROJECT_DIR$/src/Home.js" />
         <option value="$PROJECT_DIR$/src/Home.scss" />
       </list>
     </option>
@@ -174,12 +169,12 @@
       <workItem from="1531488070489" duration="37976000" />
       <workItem from="1531569981537" duration="24662000" />
       <workItem from="1531650494436" duration="21946000" />
-      <workItem from="1531731262397" duration="59932000" />
+      <workItem from="1531731262397" duration="61058000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="164972000" />
+    <option name="totallyTimeSpent" value="166098000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1719" height="932" extended-state="6" />
@@ -486,13 +481,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -622,16 +610,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="83" selection-start-line="22" selection-start-column="83" selection-end-line="22" selection-end-column="83" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Menu.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="706">
@@ -639,10 +617,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="68" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Home.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="83" column="20" lean-forward="true" selection-start-line="83" selection-start-column="20" selection-end-line="83" selection-end-column="20" />
+        <state relative-caret-position="536">
+          <caret line="87" column="19" lean-forward="true" selection-start-line="87" selection-start-column="19" selection-end-line="87" selection-end-column="19" />
         </state>
       </provider>
     </entry>
