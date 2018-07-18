@@ -14,7 +14,7 @@ export class Home extends Component {
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At commodi corporis dolor ea fugit impedit molestiae molestias, natus nulla quae quas quidem sed voluptate. Atque expedita inventore minima placeat quidem!</p>
                         <Link to="/Voyages">bouton</Link>
                     </div>
-                    <img src={backvoyage}/>
+                    <img src={backvoyage} alt="catégorie voyage"/>
                 </section>
                 <section>
                     <p>Regardez nos vidéos !</p>
@@ -22,7 +22,7 @@ export class Home extends Component {
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At commodi corporis dolor ea fugit impedit molestiae molestias, natus nulla quae quas quidem sed voluptate. Atque expedita inventore minima placeat quidem!</p>
                         <Link to={{ pathname: '/Videos', state: { page: true, id: 0} }}>bouton</Link>
                     </div>
-                    <img src={backvideo}/>
+                    <img src={backvideo} alt="catégorie vidéo"/>
                 </section>
             </div>
         );

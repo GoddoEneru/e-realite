@@ -119,9 +119,9 @@ export class Episode extends Component {
                         <article className="controle">
                             <div className="container"><h1>{Data[this.props.idEreal].nom} <span>{Data2[this.state.id].nom}</span></h1></div>
                             <div className="container">
-                                <img src={fleche} alt="play / pause" onClick={this.videoPre}/>
+                                <img src={fleche} alt="vidéo précédante" onClick={this.videoPre}/>
                                 <img src={fleche} alt="play / pause" className="play" onClick={this.playPause}/>
-                                <img src={fleche} alt="play / pause" onClick={this.videoSui}/>
+                                <img src={fleche} alt="vidéo suivante" onClick={this.videoSui}/>
                             </div>
                             <div className="container">
                                 <div className="volume">
@@ -134,8 +134,8 @@ export class Episode extends Component {
                                     />
                                     <img src={fleche} alt="son" className="son" onClick={this.mute}/>
                                 </div>
-                                <img src={fleche} alt="play / pause" onClick={this.fullScreen}/>
-                                <img src={fleche} alt="play / pause" className="togglePlaylist" onClick={this.togglePlaylist}/>
+                                <img src={fleche} alt="plein ecran" onClick={this.fullScreen}/>
+                                <img src={fleche} alt="liste autres épisodes" className="togglePlaylist" onClick={this.togglePlaylist}/>
                             </div>
                         </article>
                         <BigPlayButton position="center" />
