@@ -24,7 +24,7 @@ class SimpleSliderAventure extends React.Component {
         const DataVoyages = Data.map( (d, index) => {
             if (d.type === "#AVENTURE"){
                 return (
-                    <div key={index} className="card" style={{ width: 420 }}>
+                    <div key={index} className="card">
                         <article onClick={() => this.props.chargeVoyage(d.id)}>
                             <div style={{ background: d.image1 }}><p>{d.type}</p></div>
                             <div><p><span>Destination :</span> {d.destination}<br/>
@@ -60,7 +60,7 @@ class SimpleSliderJob extends React.Component {
         const DataVoyages2 = Data.map( (d, index) => {
             if (d.type === "#MINI-JOB"){
                 return (
-                    <div key={index} className="card" style={{ width: 420 }}>
+                    <div key={index} className="card">
                         <article onClick={() => this.props.chargeVoyage(d.id)}>
                             <div style={{ background: d.image1 }}><p>{d.type}</p></div>
                             <div><p><span>Destination :</span> {d.destination}<br/>
