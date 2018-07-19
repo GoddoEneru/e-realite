@@ -23,15 +23,13 @@ export class Menu extends Component {
     };
 
     go = () => {
-        document.querySelector('.Menu').innerText = window.innerHeight;
+        console.log(document.querySelector('.Menu'))
+        document.querySelector('.Menu').style.minHeight = window.innerHeight;
     };
 
     render() {
-        this.go();
-        window.addEventListener('resize', this.go);
-
         return (
-            <div className="Menu" style={{height: window.innerHeight }}>
+            <div className="Menu" style={{minHeight: "100vh"}}>
                 <BoutonMenu couleur={this.props.couleur} toggleMenu={this.toggleMenu}/>
                 <div className="contenu">
                     <img src={fleche} alt="logo"/>
