@@ -24,7 +24,7 @@ export class Menu extends Component {
 
     render() {
         return (
-            <div className="Menu" style={{height: window.innerHeight }}>
+            <div className="Menu">
                 <BoutonMenu couleur={this.props.couleur} toggleMenu={this.toggleMenu} />
                 <div className="contenu">
                     <img src={fleche} alt="logo"/>
