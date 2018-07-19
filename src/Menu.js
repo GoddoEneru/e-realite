@@ -22,7 +22,14 @@ export class Menu extends Component {
         }
     };
 
+    go = () => {
+        document.querySelector('.Menu').innerText = window.innerHeight;
+    };
+
     render() {
+        this.go();
+        window.addEventListener('resize', this.go);
+
         return (
             <div className="Menu" style={{height: window.innerHeight }}>
                 <BoutonMenu couleur={this.props.couleur} toggleMenu={this.toggleMenu}/>
