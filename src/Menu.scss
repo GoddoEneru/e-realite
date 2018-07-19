@@ -2,7 +2,6 @@
 
 .Menu{
   width: 50px;
-  height: 100vh;
   background: #fff;
   box-shadow: 0px 0px 10px rgba( 0, 0, 0, 0.2);
   position: fixed;
@@ -99,4 +98,20 @@
 }
 .MenuShow{
   width: 250px;
+}
+
+@media (max-width: 768px) {
+  .Menu{
+    width: 0;
+    padding: 70px 0;
+    span{
+      position: fixed;
+      right: 25px;
+      top: initial;
+      bottom: 25px;
+    }
+  }
+  .MenuShow{
+    width: 250px;
+  }
 }

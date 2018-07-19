@@ -340,12 +340,37 @@
 
 @media (max-width: 768px) {
   .Voyages{
+    margin-left: 0;
     section{
+      &:last-of-type{
+        padding: 70px 25px;
+        box-sizing: border-box;
+      }
       .slider-voyage{
+        width: calc(100% + 25px);
         .card{
           article{
-            width: 200px;
+            width: 250px;
             height: 150px;
+          }
+        }
+      }
+    }
+  }
+  .Voyage{
+    margin-left: 0;
+    section {
+      &:last-of-type {
+        article{
+          padding: 0 25px;
+          &:nth-of-type(2){
+            padding: 0;
+            p{
+              padding: 0 25px;
+            }
+          }
+          &:last-of-type{
+            padding: 30px 25px;
           }
         }
       }

@@ -250,6 +250,23 @@
           padding-top: 10px; } }
 
 @media (max-width: 768px) {
-  .Voyages section .slider-voyage .card article {
-    width: 200px;
-    height: 150px; } }
+  .Voyages {
+    margin-left: 0; }
+    .Voyages section:last-of-type {
+      padding: 70px 25px;
+      box-sizing: border-box; }
+    .Voyages section .slider-voyage {
+      width: calc(100% + 25px); }
+      .Voyages section .slider-voyage .card article {
+        width: 250px;
+        height: 150px; }
+  .Voyage {
+    margin-left: 0; }
+    .Voyage section:last-of-type article {
+      padding: 0 25px; }
+      .Voyage section:last-of-type article:nth-of-type(2) {
+        padding: 0; }
+        .Voyage section:last-of-type article:nth-of-type(2) p {
+          padding: 0 25px; }
+      .Voyage section:last-of-type article:last-of-type {
+        padding: 30px 25px; } }
