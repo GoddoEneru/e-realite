@@ -118,7 +118,7 @@ export class Ereal extends Component {
                     <article className="live">
                         <h2>Live</h2>
                         <div className="fullWidthLive">
-                            <iframe src="https://www.youtube.com/embed/a-M_5rGhPdg?autoplay=1&controls=0&modestbranding=1&showinfo=0&enablejsapi=1" frameBorder="0"/>
+                            <iframe src="https://www.youtube.com/embed/a-M_5rGhPdg?autoplay=1&controls=0&modestbranding=1&showinfo=0&enablejsapi=1&mute=1" frameBorder="0"/>
                             <div className="infoErealite">
                                 <h1>{Data[this.props.id].nom}</h1>
                                 <p>{Data[this.props.id].description}</p>

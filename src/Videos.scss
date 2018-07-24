@@ -3,7 +3,7 @@
 .Videos{
   padding-left: 50px;
   section{
-    background: $gris;
+    background: linear-gradient($noir, $gris);
     padding: 70px 30px 70px 50px;
     display: flex;
     flex-direction: row;

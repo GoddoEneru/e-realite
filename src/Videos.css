@@ -1,7 +1,7 @@
 .Videos {
   padding-left: 50px; }
   .Videos section {
-    background: #434343;
+    background: linear-gradient(#232323, #434343);
     padding: 70px 30px 70px 50px;
     display: flex;
     flex-direction: row;
