@@ -33,7 +33,8 @@
     .Menu span.MenuRouge {
       background: #ff2c36; }
     .Menu span img {
-      width: 30px;
+      width: 25px;
+      height: 25px;
       transition: 0.3s ease-in-out; }
       .Menu span img.rotation {
         transform: rotate(90deg); }
@@ -48,7 +49,8 @@
     .Menu div.show {
       opacity: 1; }
     .Menu div img {
-      width: 250px; }
+      width: 80%;
+      margin-bottom: 50px; }
     .Menu div a {
       font-size: 3em;
       letter-spacing: 2px;
@@ -89,5 +91,8 @@
       right: 25px;
       top: initial;
       bottom: 25px; }
+
   .MenuShow {
     width: 250px; } }
+
+/*# sourceMappingURL=Menu.css.map */

@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import Map from 'google-map-react';
-import marker from './images/pikuto.jpg';
+import marker from './images/pin.svg';
 
 import mapStyles from './mapStyles';
 
 const Marker = () => <img className="marker" src={marker}/>;
 
 const mapOptions = {
-    styles: mapStyles // straight out of something like snazzymaps
+    styles: mapStyles, // straight out of something like snazzymaps
+    draggable: false
 };
 
 export class SimpleMap extends Component {

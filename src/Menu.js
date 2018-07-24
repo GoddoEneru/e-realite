@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import './Menu.css';
 import {BoutonMenu} from "./Bouton-Menu";
 
-import fleche from './images/pikuto.jpg';
+import logo from './images/logo.svg';
 
 import Data from './Data-erealite';
 
@@ -27,7 +27,7 @@ export class Menu extends Component {
             <div className="Menu">
                 <BoutonMenu couleur={this.props.couleur} toggleMenu={this.toggleMenu}/>
                 <div className="contenu">
-                    <img src={fleche} alt="logo"/>
+                    <img src={logo} alt="logo"/>
                     <NavLink to="/Voyages">Voyages</NavLink>
                     <NavLink to={{ pathname: '/Videos', state: { page: true, id: 0} }}>Videos</NavLink>
                     <NavLink to={{ pathname: '/Videos', state: { page: false, id: 8} }} className="sousLien">{Data[8].nom}</NavLink>

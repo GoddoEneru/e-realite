@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import './Voyages.css';
 import { Link } from 'react-router-dom';
 
-import fleche from './images/pikuto.jpg';
+import fleche from './images/fleche.svg';
 
 import Data from "./Data-voyages";
 import  {SimpleMap} from "./map";
@@ -18,7 +18,8 @@ class SimpleSliderAventure extends React.Component {
             infinite: true,
             slidesToShow: 1,
             slidesToScroll: 1,
-            variableWidth: true
+            variableWidth: true,
+            draggable: false
         };
 
         const DataVoyages = Data.map( (d, index) => {
@@ -54,7 +55,8 @@ class SimpleSliderJob extends React.Component {
             infinite: true,
             slidesToShow: 1,
             slidesToScroll: 1,
-            variableWidth: true
+            variableWidth: true,
+            draggable: false
         };
 
         const DataVoyages2 = Data.map( (d, index) => {

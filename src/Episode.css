@@ -5,11 +5,12 @@
     flex-direction: row;
     height: 100vh;
     margin-left: 50px;
-    box-sizing: border-box; }
+    box-sizing: border-box;
+    position: relative; }
     .pageVideo section .retour {
       position: absolute;
       top: 20px;
-      left: 70px;
+      left: 20px;
       z-index: 11;
       display: flex;
       flex-direction: row;
@@ -33,18 +34,38 @@
       align-items: center;
       background: #000; }
       .pageVideo section .video div {
-        outline: none;
-        max-height: 100vh; }
+        outline: none; }
+        .pageVideo section .video div .video-react-progress-control {
+          height: auto;
+          position: fixed;
+          width: calc(100vw - 150px);
+          left: 100px;
+          bottom: 130px;
+          z-index: 99;
+          transition: 0.3s ease-in-out; }
+          .pageVideo section .video div .video-react-progress-control.video-react-pleinEcran {
+            left: 50px;
+            opacity: 0.3; }
+            .pageVideo section .video div .video-react-progress-control.video-react-pleinEcran:hover {
+              opacity: 1; }
+          .pageVideo section .video div .video-react-progress-control .video-react-progress-holder {
+            width: calc(100vw - 150px); }
+            .pageVideo section .video div .video-react-progress-control .video-react-progress-holder .video-react-load-progress {
+              width: calc(100vw - 150px); }
+            .pageVideo section .video div .video-react-progress-control .video-react-progress-holder .video-react-play-progress {
+              background: #ff2c36; }
+        .pageVideo section .video div .video-react-pleinEcran {
+          width: calc(100vw - 100px); }
       .pageVideo section .video .controle {
         position: fixed;
         font-family: Arial;
         font-size: 16px;
-        z-index: 99;
+        z-index: 200;
         bottom: 40px;
         left: 100px;
         border: 0px solid #fff;
         border-radius: 10px;
-        width: calc(100% - 550px);
+        width: calc(100% - 150px);
         background: #232323;
         height: 70px;
         display: flex;
@@ -124,14 +145,16 @@
       width: 400px;
       background: #333;
       color: #fff;
-      position: relative; }
+      position: absolute;
+      right: 0;
+      top: 0;
+      height: 100%;
+      transition: 0.3s ease-in-out;
+      transform: translateX(400px); }
       .pageVideo section .commentaire .Playlist {
-        transform: translateX(400px);
         display: flex;
         width: 100%;
-        position: absolute;
-        flex-direction: column-reverse;
-        transition: 0.3s ease-in-out; }
+        flex-direction: column-reverse; }
         .pageVideo section .commentaire .Playlist .itemPlaylist {
           background: #434343;
           height: 50px;
@@ -174,7 +197,5 @@
             margin-right: 20px; }
         .pageVideo section .commentaire .Playlist .itemPlaylistActive {
           background: #535353; }
-      .pageVideo section .commentaire .PlaylistShow {
-        transform: translateX(0); }
-    .pageVideo section .commentaireFullScreen {
-      display: none; }
+    .pageVideo section .commentaireShow {
+      transform: translateX(0); }

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Episode.css';
-import { Player, BigPlayButton, ControlBar, CurrentTimeDisplay } from 'video-react';
+import { Player, BigPlayButton, ControlBar, CurrentTimeDisplay, ProgressControl } from 'video-react';
 import Slider from 'react-rangeslider'
 
 import Data from "./Data-erealite";
@@ -18,14 +18,6 @@ export class Episode extends Component {
         });
         this.refs.player.muted = false;
         this.refs.player.volume = this.state.value / 100;
-    };
-
-    handleChange2 = (value) => {
-        const { player } = this.refs.player.getState();
-        this.setState({
-            temps: value
-        });
-        this.refs.player.seek(this.state.temps / 100 * player.duration);
     };
 
     changeEp = (id) => {
@@ -52,7 +44,10 @@ export class Episode extends Component {
 
     fullScreen = () => {
         this.refs.player.toggleFullscreen();
-        document.querySelector(".controle").classList.toggle("controleFullScreen")
+        document.querySelector(".controle").classList.toggle("controleFullScreen");
+        document.querySelector(".video-react-progress-control").classList.toggle("video-react-pleinEcran");
+        document.querySelector(".video-react-progress-holder").classList.toggle("video-react-pleinEcran");
+        document.querySelector(".video-react-load-progress").classList.toggle("video-react-pleinEcran");
     };
 
     playPause = () => {
@@ -66,8 +61,8 @@ export class Episode extends Component {
     };
 
     togglePlaylist = () => {
-        document.querySelector(".Playlist").classList.toggle("PlaylistShow");
-    }
+        document.querySelector(".commentaire").classList.toggle("commentaireShow");
+    };
 
     mute = () => {
         const { player } = this.refs.player.getState();
@@ -139,7 +134,7 @@ export class Episode extends Component {
                             </div>
                         </article>
                         <BigPlayButton position="center" />
-                        <CurrentTimeDisplay/>
+                        <ProgressControl/>
                         <ControlBar disableCompletely={true}/>
                     </Player>
 

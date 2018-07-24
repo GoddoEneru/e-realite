@@ -40,7 +40,8 @@
       background: $rouge;
     }
     img{
-      width: 30px;
+      width: 25px;
+      height: 25px;
       transition: 0.3s ease-in-out;
       &.rotation{
         transform: rotate(90deg);
@@ -59,7 +60,8 @@
       opacity: 1;
     }
     img{
-      width: 250px;
+      width: 80%;
+      margin-bottom: 50px;
     }
     a{
       font-size: 3em;

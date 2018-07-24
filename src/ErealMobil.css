@@ -1,0 +1,24 @@
+.ErealMobil {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(#232323, #434343);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .ErealMobil .logo {
+    width: 200px;
+    margin-bottom: 15px; }
+  .ErealMobil p {
+    font-size: 1.2em;
+    color: #ffffff;
+    margin-bottom: 30px; }
+  .ErealMobil a.app {
+    padding: 10px 20px;
+    background: #ff2c36;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    border: 0 #fff solid;
+    border-radius: 6px; }

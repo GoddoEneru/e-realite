@@ -4,10 +4,11 @@ import './Erealite.css';
 
 import Data from "./Data-erealite";
 import Data2 from "./Data-vidéos";
-import fleche from './images/pikuto.jpg';
+import fleche from './images/fleche.svg';
 import playHover from './images/picto-video2.svg';
 import {Episode} from "./Episode";
 import {Menu} from './Menu';
+import {Live} from "./Live";
 
 class SliderEpisode extends React.Component {
     render() {
@@ -15,6 +16,7 @@ class SliderEpisode extends React.Component {
             className: "slider-episode",
             dots: false,
             arrows: true,
+            draggable: false,
             infinite: false,
             slidesToShow: 1,
             slidesToScroll: 1,
@@ -51,6 +53,7 @@ class SliderMeilleur extends React.Component {
             className: "slider-meilleur",
             dots: false,
             arrows: true,
+            draggable: false,
             infinite: false,
             slidesToShow: 1,
             slidesToScroll: 1,
@@ -115,11 +118,12 @@ export class Ereal extends Component {
                     <article className="live">
                         <h2>Live</h2>
                         <div className="fullWidthLive">
-                            <iframe src="https://www.youtube.com/embed/a-M_5rGhPdg?autoplay=1&controls=0&modestbranding=1&showinfo=0&enablejsapi=1" frameBorder="0" allowFullScreen/>
-                        </div>
-                        <div className="infoErealite">
-                            <h1>{Data[this.props.id].nom}</h1>
-                            <p>{Data[this.props.id].description}</p>
+                            <iframe src="https://www.youtube.com/embed/a-M_5rGhPdg?autoplay=1&controls=0&modestbranding=1&showinfo=0&enablejsapi=1" frameBorder="0"/>
+                            <div className="infoErealite">
+                                <h1>{Data[this.props.id].nom}</h1>
+                                <p>{Data[this.props.id].description}</p>
+                                <span className="bouton" onClick={() => this.charge(0, 3)}>VOIR LE LIVE</span>
+                            </div>
                         </div>
                     </article>
                     <article className="episodes">
@@ -139,11 +143,7 @@ export class Ereal extends Component {
         }
 
         if(this.state.cat === 3){
-            return <div className="Erealite">
-                <section>
-
-                </section>
-            </div>;
+            return <Live idErealite={this.props.id} quitte={this.quitte}/>;
         }
     }
 }

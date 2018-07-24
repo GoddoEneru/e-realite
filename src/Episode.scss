@@ -8,10 +8,11 @@
     height: 100vh;
     margin-left: 50px;
     box-sizing: border-box;
+    position: relative;
     .retour{
       position: absolute;
       top: 20px;
-      left: 70px;
+      left: 20px;
       z-index: 11;
       display: flex;
       flex-direction: row;
@@ -42,24 +43,45 @@
       background: #000;
       div{
         outline: none;
-        max-height: 100vh;
-      }
-      .barreProgVideo{
-        //position: fixed;
-        //width: calc (100% - 100px);
-        //bottom: 50px;
-        //left: 50px;
+        .video-react-progress-control{
+          height: auto;
+          position: fixed;
+          width: calc(100vw - 150px);
+          left: 100px;
+          bottom: 130px;
+          z-index: 99;
+          transition: 0.3s ease-in-out;
+          &.video-react-pleinEcran{
+            left: 50px;
+            opacity: 0.3;
+            &:hover{
+              opacity: 1;
+            }
+          }
+          .video-react-progress-holder{
+            width: calc(100vw - 150px);
+            .video-react-load-progress{
+              width: calc(100vw - 150px);
+            }
+            .video-react-play-progress{
+              background: $rouge;
+            }
+          }
+        }
+        .video-react-pleinEcran{
+          width: calc(100vw - 100px);
+        }
       }
       .controle{
         position: fixed;
         font-family: Arial;
         font-size: 16px;
-        z-index: 99;
+        z-index: 200;
         bottom: 40px;
         left: 100px;
         border: 0px solid #fff;
         border-radius: 10px;
-        width: calc(100% - 550px);
+        width: calc(100% - 150px);
         background: $noir;
         height: 70px;
         display: flex;
@@ -164,14 +186,16 @@
       width: 400px;
       background: #333;
       color: #fff;
-      position: relative;
+      position: absolute;
+      right: 0;
+      top: 0;
+      height: 100%;
+      transition: 0.3s ease-in-out;
+      transform: translateX(400px);
       .Playlist{
-        transform: translateX(400px);
         display: flex;
         width: 100%;
-        position: absolute;
         flex-direction: column-reverse;
-        transition: 0.3s ease-in-out;
         .itemPlaylist{
           background: $gris;
           height: 50px;
@@ -227,12 +251,9 @@
           background: #535353;
         }
       }
-      .PlaylistShow{
-        transform: translateX(0);
-      }
     }
-    .commentaireFullScreen{
-      display: none;
+    .commentaireShow{
+      transform: translateX(0);
     }
   }
 }
