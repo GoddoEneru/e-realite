@@ -77,7 +77,7 @@
           justify-content: space-between;
           align-items: center; }
           .pageVideo section .video .controle .container img {
-            width: 30px;
+            width: 20px;
             cursor: pointer;
             opacity: 0.7;
             transition: 0.3s ease-in-out; }
@@ -97,9 +97,11 @@
             box-sizing: border-box;
             border-left: 1px solid #666;
             border-right: 1px solid #666; }
+            .pageVideo section .video .controle .container:nth-of-type(2) img:last-of-type {
+              transform: rotate(180deg); }
             .pageVideo section .video .controle .container:nth-of-type(2) .play {
-              width: 40px;
-              margin: 0 15px; }
+              width: 25px;
+              margin: 0 25px; }
           .pageVideo section .video .controle .container:last-of-type {
             width: 120px;
             align-self: flex-end;
@@ -111,14 +113,14 @@
             .pageVideo section .video .controle .container:last-of-type .volume:hover .rangeslider {
               display: block; }
             .pageVideo section .video .controle .container:last-of-type .volume {
-              width: 30px;
+              width: 20px;
               margin: 0;
               display: flex;
               flex-direction: column; }
               .pageVideo section .video .controle .container:last-of-type .volume .rangeslider {
                 display: none;
                 width: 5px;
-                margin: 0 12.5px 10px 12.5px;
+                margin: 0 7.5px 10px 7.5px;
                 height: 100px;
                 background: #aaa; }
                 .pageVideo section .video .controle .container:last-of-type .volume .rangeslider .rangeslider__fill {
@@ -199,3 +201,5 @@
           background: #535353; }
     .pageVideo section .commentaireShow {
       transform: translateX(0); }
+
+/*# sourceMappingURL=Episode.css.map */

@@ -122,7 +122,7 @@ export class Voyages extends Component {
             return (
                 <div className="Voyages">
                     <Menu couleur={false}/>
-                    <section>
+                    <section style={{ background: Data[2].image2 }}>
                         <h1>#VOYAGES</h1>
                     </section>
                     <section>
@@ -177,15 +177,15 @@ export class Voyages extends Component {
                             {Data[this.state.id].prix}</p>
                     </article>
                     <article>
-                    <p><span className="bluetitle">Détails du prix</span></p>
+                    <p><span className="bluetitle">Le prix contient</span></p>
                         <ul>
-                            <li>- Le Lorem Ipsum est simplement du faux texte employé</li>
-                            <li>- Le Lorem Ipsum est simplement du faux texte employé dans la composition</li>
-                            <li>- Le Lorem Ipsum est simplement du</li>
-                            <li>- Le Lorem Ipsum est simplement du faux texte</li>
-                            <li>- Le Lorem Ipsum est simplement du faux texte employé dans</li>
-                            <li>- Le Lorem Ipsum est simplement du faux texte employé dans la composition</li>
-                            <li>- Le Lorem Ipsum est simplement du faux texte employé</li>
+                            <li>- Le billet d'avion</li>
+                            <li>- La location</li>
+                            <li>- La caution de la location</li>
+                            <li>- Les activités</li>
+                            <li>- La nourriture</li>
+                            <li>- La location des véhicules</li>
+                            <li>- Les sorties prévues</li>
                         </ul>
                     </article>
                     <Link to="/Reserver" className="reserve">RESERVER</Link>

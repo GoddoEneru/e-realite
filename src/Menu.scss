@@ -35,9 +35,17 @@
     }
     &.MenuBleu{
       background: $bleu;
+      transition: 0.2s ease-in-out;
+      &:hover{
+        background: $bleuc;
+      }
     }
     &.MenuRouge{
       background: $rouge;
+      transition: 0.2s ease-in-out;
+      &:hover{
+        background: $rougec;
+      }
     }
     img{
       width: 25px;

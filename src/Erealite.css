@@ -86,7 +86,10 @@
             cursor: pointer;
             border: 0 #fff solid;
             border-radius: 6px;
-            margin-bottom: 15px; }
+            margin-bottom: 15px;
+            transition: 0.2s ease-in-out; }
+            .Erealite section .live .fullWidthLive .infoErealite .bouton:hover {
+              background: #ff4f54; }
     .Erealite section .episodes {
       margin-bottom: 50px; }
     .Erealite section .episodes .slider-episode .card article, .Erealite section .episodes .slider-meilleur .card article, .Erealite section .meilleurs .slider-episode .card article, .Erealite section .meilleurs .slider-meilleur .card article {
@@ -137,8 +140,9 @@
       position: absolute;
       right: 0;
       top: 0; } }
-
 @media (max-width: 970px) {
   .Erealite section .live .fullWidthLive iframe {
     width: 600px;
     height: 337.5px; } }
+
+/*# sourceMappingURL=Erealite.css.map */

@@ -3,7 +3,7 @@ import './Live.css';
 
 import Data from "./Data-erealite";
 
-import fleche from './images/pikuto.jpg';
+import fleche from './images/fleche.svg';
 
 export class Live extends Component {
 

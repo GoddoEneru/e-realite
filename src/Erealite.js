@@ -28,7 +28,7 @@ class SliderEpisode extends React.Component {
                 return (
                     <div key={index} className="card" style={{ width: 270 }}>
                         <article onClick={() => this.props.charge(d.id, d.cat)}>
-                            <div style={{background: d.image1}}>
+                            <div style={{background: Data[this.props.id].image1}}>
                                 <span></span>
                                 <img src={playHover} alt="lire la vidéo"/>
                             </div>
@@ -65,7 +65,7 @@ class SliderMeilleur extends React.Component {
                 return (
                     <div key={index} className="card" style={{ width: 270 }}>
                         <article onClick={() => this.props.charge(d.id, d.cat)}>
-                            <div style={{background: d.image1}}>
+                            <div style={{background: Data[this.props.id].image1}}>
                                 <span></span>
                                 <img src={playHover} alt="lire la vidéo"/>
                             </div>
@@ -128,11 +128,11 @@ export class Ereal extends Component {
                     </article>
                     <article className="episodes">
                         <h2>Episodes</h2>
-                        <SliderEpisode charge={this.charge}/>
+                        <SliderEpisode charge={this.charge} id={this.props.id}/>
                     </article>
                     <article className="meilleurs">
                         <h2>Meilleurs moments</h2>
-                        <SliderMeilleur charge={this.charge}/>
+                        <SliderMeilleur charge={this.charge} id={this.props.id}/>
                     </article>
                 </section>
             </div>;

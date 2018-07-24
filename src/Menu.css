@@ -29,9 +29,15 @@
     .Menu span:hover img {
       transform: rotate(90deg); }
     .Menu span.MenuBleu {
-      background: #338fdf; }
+      background: #338fdf;
+      transition: 0.2s ease-in-out; }
+      .Menu span.MenuBleu:hover {
+        background: #509fdf; }
     .Menu span.MenuRouge {
-      background: #ff2c36; }
+      background: #ff2c36;
+      transition: 0.2s ease-in-out; }
+      .Menu span.MenuRouge:hover {
+        background: #ff4f54; }
     .Menu span img {
       width: 25px;
       height: 25px;

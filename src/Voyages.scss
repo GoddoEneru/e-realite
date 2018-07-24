@@ -9,7 +9,6 @@
     background: #fff;
     &:first-of-type{
       width: calc( 50% - 25px );
-      background: linear-gradient(#5d6a74, #162939);
       position: fixed;
       height: 100vh;
       display: flex;
@@ -111,6 +110,10 @@
         border: 0 $bleu solid;
         border-radius: 6px;
         cursor: pointer;
+        transition: 0.2s ease-in-out;
+        &:hover{
+          background: $bleuc;
+        }
       }
     }
   }
@@ -203,6 +206,10 @@
         box-sizing: border-box;
         border: 0 $bleu solid;
         border-radius: 6px;
+        transition: 0.2s ease-in-out;
+        &:hover{
+          background: $bleuc;
+        }
       }
       article{
         margin-bottom: 50px;

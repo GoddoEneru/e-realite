@@ -20,6 +20,10 @@
     &:first-of-type{
       a{
         background: $bleu;
+        transition: 0.2s ease-in-out;
+        &:hover{
+          background: $bleuc;
+        }
       }
     }
     img{
@@ -58,6 +62,10 @@
         box-sizing: border-box;
         border: 0 #fff solid;
         border-radius: 6px;
+        transition: 0.2s ease-in-out;
+        &:hover{
+          background: $rougec;
+        }
       }
     }
     &:hover{

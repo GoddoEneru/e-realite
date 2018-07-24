@@ -6,8 +6,7 @@
     box-sizing: border-box;
     background: #fff; }
     .Voyages section:first-of-type {
-      width: calc( 50% - 25px);
-      background: linear-gradient(#5d6a74, #162939);
+      width: calc( 50% - 25px );
       position: fixed;
       height: 100vh;
       display: flex;
@@ -88,7 +87,10 @@
         box-sizing: border-box;
         border: 0 #338fdf solid;
         border-radius: 6px;
-        cursor: pointer; }
+        cursor: pointer;
+        transition: 0.2s ease-in-out; }
+        .Voyages section form input:hover {
+          background: #509fdf; }
 
 .Voyage {
   display: flex;
@@ -152,7 +154,7 @@
         width: 30px;
         transform: translate(-15px, -30px); }
       .Voyage section:last-of-type .reserve {
-        width: calc( 100% - 100px);
+        width: calc( 100% - 100px );
         padding: 10px 20px;
         text-align: center;
         margin: 0 50px;
@@ -162,7 +164,10 @@
         text-transform: uppercase;
         box-sizing: border-box;
         border: 0 #338fdf solid;
-        border-radius: 6px; }
+        border-radius: 6px;
+        transition: 0.2s ease-in-out; }
+        .Voyage section:last-of-type .reserve:hover {
+          background: #509fdf; }
       .Voyage section:last-of-type article {
         margin-bottom: 50px;
         padding: 0 50px;
@@ -220,6 +225,7 @@
     .Voyages section .slider-voyage .card article {
       width: 350px;
       height: 200px; }
+
   .Voyage {
     flex-direction: column; }
     .Voyage section:first-of-type {
@@ -248,7 +254,6 @@
           padding-bottom: 10px; }
         .Voyage section:last-of-type article:nth-of-type(3) p:last-of-type {
           padding-top: 10px; } }
-
 @media (max-width: 768px) {
   .Voyages {
     margin-left: 0; }
@@ -260,6 +265,7 @@
       .Voyages section .slider-voyage .card article {
         width: 250px;
         height: 200px; }
+
   .Voyage {
     margin-left: 0; }
     .Voyage section:first-of-type .retour {
@@ -272,3 +278,5 @@
           padding: 0 25px; }
       .Voyage section:last-of-type article:last-of-type {
         padding: 30px 25px; } }
+
+/*# sourceMappingURL=Voyages.css.map */

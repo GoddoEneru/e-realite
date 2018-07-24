@@ -5,12 +5,20 @@ import Slider from 'react-rangeslider'
 
 import Data from "./Data-erealite";
 import Data2 from "./Data-vidéos";
-import fleche from './images/pikuto.jpg';
+import fleche from './images/fleche.svg';
 import playHover from './images/picto-video2.svg';
 import {Menu} from './Menu';
 
+import play from './images/play.svg';
+import pause from './images/pause.svg';
+import prev from './images/prev.svg';
+import son from './images/son.svg';
+import full from './images/full.svg';
+import fulld from './images/fulld.svg';
+import playlist from './images/playlist.svg';
+
 export class Episode extends Component {
-    state = { value: 100, id: this.props.idEp, temps: 0 };
+    state = { value: 100, id: this.props.idEp, isFullScreen: true, isPlay: true, };
 
     handleChange = (value) => {
         this.setState({
@@ -24,7 +32,8 @@ export class Episode extends Component {
         this.setState({
             id: id
         });
-    }
+        document.querySelector(".commentaire").classList.toggle("commentaireShow");
+    };
 
     videoPre = () => {
         if(this.state.id < 7) {
@@ -44,6 +53,9 @@ export class Episode extends Component {
 
     fullScreen = () => {
         this.refs.player.toggleFullscreen();
+        this.setState({
+            isFullScreen: !this.state.isFullScreen
+        });
         document.querySelector(".controle").classList.toggle("controleFullScreen");
         document.querySelector(".video-react-progress-control").classList.toggle("video-react-pleinEcran");
         document.querySelector(".video-react-progress-holder").classList.toggle("video-react-pleinEcran");
@@ -54,8 +66,14 @@ export class Episode extends Component {
         const { player } = this.refs.player.getState();
         if (player.paused){
             this.refs.player.play();
+            this.setState({
+                isPlay: true
+            });
         }else{
             this.refs.player.pause();
+            this.setState({
+                isPlay: false
+            });
         }
 
     };
@@ -114,9 +132,9 @@ export class Episode extends Component {
                         <article className="controle">
                             <div className="container"><h1>{Data[this.props.idEreal].nom} <span>{Data2[this.state.id].nom}</span></h1></div>
                             <div className="container">
-                                <img src={fleche} alt="vidéo précédante" onClick={this.videoPre}/>
-                                <img src={fleche} alt="play / pause" className="play" onClick={this.playPause}/>
-                                <img src={fleche} alt="vidéo suivante" onClick={this.videoSui}/>
+                                <img src={prev} alt="vidéo précédante" onClick={this.videoPre}/>
+                                {this.state.isPlay ?  <img src={pause} alt="play / pause" className="play" onClick={this.playPause}/> : <img src={play} alt="play / pause" className="play" onClick={this.playPause}/>}
+                                <img src={prev} alt="vidéo suivante" onClick={this.videoSui}/>
                             </div>
                             <div className="container">
                                 <div className="volume">
@@ -127,10 +145,10 @@ export class Episode extends Component {
                                         orientation='vertical'
                                         onChange={this.handleChange}
                                     />
-                                    <img src={fleche} alt="son" className="son" onClick={this.mute}/>
+                                    <img src={son} alt="son" className="son" onClick={this.mute}/>
                                 </div>
-                                <img src={fleche} alt="plein ecran" onClick={this.fullScreen}/>
-                                <img src={fleche} alt="liste autres épisodes" className="togglePlaylist" onClick={this.togglePlaylist}/>
+                                {this.state.isFullScreen ?  <img src={full} alt="plein ecran" onClick={this.fullScreen}/> : <img src={fulld} alt="plein ecran" onClick={this.fullScreen}/>}
+                                <img src={playlist} alt="liste autres épisodes" className="togglePlaylist" onClick={this.togglePlaylist}/>
                             </div>
                         </article>
                         <BigPlayButton position="center" />
