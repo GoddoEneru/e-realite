@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700,900");
+* {
+  font-family: 'Roboto', sans-serif; }
+
 .Videos {
   padding-left: 50px; }
   .Videos section {
@@ -31,13 +35,13 @@
           text-align: center;
           padding: 10px 20px;
           color: #fff;
-          font-weight: bold; }
+          font-weight: 700; }
       .Videos section article div:last-of-type {
         display: flex;
         justify-content: space-between;
         align-items: center; }
         .Videos section article div:last-of-type p span:first-of-type {
-          font-weight: bold; }
+          font-weight: 700; }
         .Videos section article div:last-of-type p span:last-of-type {
           font-size: 0.85em; }
 

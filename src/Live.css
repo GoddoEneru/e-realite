@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700,900");
+* {
+  font-family: 'Roboto', sans-serif; }
+
 .pageLive {
   overflow: hidden; }
   .pageLive .retour {
@@ -27,7 +31,7 @@
       height: 100%;
       width: 100%; }
   .pageLive h1 {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 2em;
     color: #ffffff;
     position: fixed;

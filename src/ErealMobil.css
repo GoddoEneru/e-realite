@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700,900");
+* {
+  font-family: 'Roboto', sans-serif; }
+
 .ErealMobil {
   width: 100vw;
   height: 100vh;
@@ -22,3 +26,5 @@
     box-sizing: border-box;
     border: 0 #fff solid;
     border-radius: 6px; }
+
+/*# sourceMappingURL=ErealMobil.css.map */

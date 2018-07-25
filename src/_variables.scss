@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700,900');
+
 $rouge: #ff2c36;
 $rougec: #ff4f54;
 $rouget: rgba(255, 44, 54, 0.8);
@@ -8,5 +10,9 @@ $noir: #232323;
 $noirt: rgba(35, 35, 35, 0.8);
 $gris: #434343;
 
-$gras: bold;
+$gras: 700;
 $regular: 400;
+
+*{
+  font-family: 'Roboto', sans-serif;
+}

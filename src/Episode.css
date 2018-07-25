@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700,900");
+* {
+  font-family: 'Roboto', sans-serif; }
+
 .pageVideo {
   overflow: hidden; }
   .pageVideo section {
@@ -195,7 +199,7 @@
             margin-left: 10px;
             flex: 1; }
           .pageVideo section .commentaire .Playlist .itemPlaylist .enCours {
-            width: 20px;
+            width: 15px;
             margin-right: 20px; }
         .pageVideo section .commentaire .Playlist .itemPlaylistActive {
           background: #535353; }

@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import Slider from "react-slick";
 import './Voyages.css';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'
+import PaypalExpressBtn from 'react-paypal-express-checkout';
 
 import fleche from './images/fleche.svg';
 
@@ -118,6 +119,11 @@ export class Voyages extends Component {
             easing: "linear"
         };
 
+        const client = {
+            sandbox:    'AdNLFkpzuJfX_u_5JWUqqCmRfoNmX2s5FTWRjMSW_6vzyZidRCOUbmWJuE3fk_gXRdkrOLutUgdTXjml',
+            production: 'YOUR-PRODUCTION-APP-ID',
+        };
+
         if(this.state.page){
             return (
                 <div className="Voyages">
@@ -188,7 +194,7 @@ export class Voyages extends Component {
                             <li>- Les sorties prévues</li>
                         </ul>
                     </article>
-                    <Link to="/Reserver" className="reserve">RESERVER</Link>
+                    <PaypalExpressBtn client={client} currency={'EUR'} total={3000.00} />
                 </section>
             </div>
         );

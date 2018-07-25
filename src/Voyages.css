@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700,900");
+* {
+  font-family: 'Roboto', sans-serif; }
+
 .Voyages {
   display: flex;
   flex-direction: row;
@@ -50,7 +54,7 @@
             text-align: center;
             padding: 10px 20px;
             color: #fff;
-            font-weight: bold; }
+            font-weight: 700; }
         .Voyages section .slider-voyage .card article div:last-of-type {
           display: flex;
           justify-content: space-between;
@@ -60,12 +64,12 @@
             .Voyages section .slider-voyage .card article div:last-of-type p:first-of-type {
               margin-right: 10px; }
               .Voyages section .slider-voyage .card article div:last-of-type p:first-of-type span:first-of-type {
-                font-weight: bold; }
+                font-weight: 700; }
               .Voyages section .slider-voyage .card article div:last-of-type p:first-of-type span:last-of-type {
                 font-size: 0.85em; }
             .Voyages section .slider-voyage .card article div:last-of-type p:last-of-type {
               background: #338fdf;
-              font-weight: bold;
+              font-weight: 700;
               padding: 5px 15px; }
     .Voyages section form {
       width: 100%; }
@@ -130,7 +134,7 @@
         position: fixed;
         z-index: 10;
         font-size: 4em;
-        font-weight: bold;
+        font-weight: 700;
         background: rgba(51, 143, 223, 0.8);
         text-align: center;
         padding: 10px 50px;
@@ -203,7 +207,7 @@
             .Voyage section:last-of-type article:last-of-type ul li {
               margin-bottom: 10px; }
         .Voyage section:last-of-type article .bluetitle {
-          font-weight: bold;
+          font-weight: 700;
           font-size: 1.2em;
           color: #338fdf; }
 

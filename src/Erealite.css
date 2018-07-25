@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700,900");
+* {
+  font-family: 'Roboto', sans-serif; }
+
 .Erealite {
   padding-left: 50px; }
   .Erealite section {
@@ -50,7 +54,7 @@
           flex-direction: column;
           align-items: center; }
           .Erealite section .live .fullWidthLive .infoErealite h1 {
-            font-weight: bold;
+            font-weight: 700;
             font-size: 2.5em;
             width: 100%;
             padding-bottom: 15px;
@@ -125,7 +129,7 @@
       .Erealite section .episodes .slider-episode .card article p, .Erealite section .episodes .slider-meilleur .card article p, .Erealite section .meilleurs .slider-episode .card article p, .Erealite section .meilleurs .slider-meilleur .card article p {
         padding: 10px 15px; }
         .Erealite section .episodes .slider-episode .card article p span:first-of-type, .Erealite section .episodes .slider-meilleur .card article p span:first-of-type, .Erealite section .meilleurs .slider-episode .card article p span:first-of-type, .Erealite section .meilleurs .slider-meilleur .card article p span:first-of-type {
-          font-weight: bold; }
+          font-weight: 700; }
         .Erealite section .episodes .slider-episode .card article p span:last-of-type, .Erealite section .episodes .slider-meilleur .card article p span:last-of-type, .Erealite section .meilleurs .slider-episode .card article p span:last-of-type, .Erealite section .meilleurs .slider-meilleur .card article p span:last-of-type {
           font-size: 0.85em; }
 

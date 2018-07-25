@@ -109,7 +109,7 @@ export class Episode extends Component {
                             <img src={playHover} alt="lire la vidéo"/>
                         </div>
                         <p>{Data[this.props.idEreal].nom} {d.nom}</p>
-                        <img src={fleche} alt="en cours" className="enCours"/>
+                        <img src={play} alt="en cours" className="enCours"/>
                     </div>
                 );
         });
