@@ -16,6 +16,7 @@ import son from './images/son.svg';
 import full from './images/full.svg';
 import fulld from './images/fulld.svg';
 import playlist from './images/playlist.svg';
+import {BoutonMenu} from "./Bouton-Menu";
 
 export class Episode extends Component {
     state = { value: 100, id: this.props.idEp, isFullScreen: true, isPlay: true, };

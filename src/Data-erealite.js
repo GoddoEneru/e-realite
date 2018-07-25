@@ -17,7 +17,7 @@ export default [
         nbEp: "8 épisodes",
         image1: "url(" + lien1 + ") center/cover",
         type: "#MINI-JOB",
-        description: "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte."
+        description: "Avec l'e-réalité les anges, Venez vivre une aventure comme vos stars préférées. Des sorties, des soirées, la plage, une vie en communauté et une expérience pour vos prochains casting"
     },
     {
         id:1,
@@ -25,7 +25,7 @@ export default [
         nbEp: "8 épisodes",
         image1: "url(" + lien3 + ") center/cover",
         type: "#MINI-JOB",
-        description: "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte."
+        description: "Avec l'e-réalité les anges, Venez vivre une aventure comme vos stars préférées. Des sorties, des soirées, la plage, une vie en communauté et une expérience pour vos prochains casting"
     },
     {
         id:2,
@@ -33,7 +33,7 @@ export default [
         nbEp: "8 épisodes",
         image1: "url(" + lien7 + ") center/cover",
         type: "#AVENTURE",
-        description: "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte."
+        description: "Kah lanto c'est une aventure à part entière. Venez vivre 2 semaines dans des paysages sauvages et faites ressortir votre ame de guerrier ! Cela pourrait même vous servir pour vos futures candidatures"
     },
     {
         id:3,
@@ -41,7 +41,7 @@ export default [
         nbEp: "8 épisodes",
         image1: "url(" + lien2 + ") center/cover",
         type: "#MINI-JOB",
-        description: "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte."
+        description: "Avec l'e-réalité les anges, Venez vivre une aventure comme vos stars préférées. Des sorties, des soirées, la plage, une vie en communauté et une expérience pour vos prochains casting"
     },
     {
         id:4,
@@ -49,7 +49,7 @@ export default [
         nbEp: "8 épisodes",
         image1: "url(" + lien5 + ") center/cover",
         type: "#AVENTURE",
-        description: "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte."
+        description: "Kah lanto c'est une aventure à part entière. Venez vivre 2 semaines dans des paysages sauvages et faites ressortir votre ame de guerrier ! Cela pourrait même vous servir pour vos futures candidatures"
     },
     {
         id:5,
@@ -57,7 +57,7 @@ export default [
         nbEp: "8 épisodes",
         image1: "url(" + lien9 + ") center/cover",
         type: "#AVENTURE",
-        description: "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte."
+        description: "Kah lanto c'est une aventure à part entière. Venez vivre 2 semaines dans des paysages sauvages et faites ressortir votre ame de guerrier ! Cela pourrait même vous servir pour vos futures candidatures"
     },
     {
         id:6,
@@ -65,7 +65,7 @@ export default [
         nbEp: "8 épisodes",
         image1: "url(" + lien4 + ") center/cover",
         type: "#AVENTURE",
-        description: "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte."
+        description: "Kah lanto c'est une aventure à part entière. Venez vivre 2 semaines dans des paysages sauvages et faites ressortir votre ame de guerrier ! Cela pourrait même vous servir pour vos futures candidatures"
     },
     {
         id:7,
@@ -73,7 +73,7 @@ export default [
         nbEp: "8 épisodes",
         image1: "url(" + lien8 + ") center/cover",
         type: "#AVENTURE",
-        description: "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte."
+        description: "Kah lanto c'est une aventure à part entière. Venez vivre 2 semaines dans des paysages sauvages et faites ressortir votre ame de guerrier ! Cela pourrait même vous servir pour vos futures candidatures"
     },
     {
         id:8,
@@ -81,6 +81,6 @@ export default [
         nbEp: "8 épisodes",
         image1: "url(" + lien6 + ") center/cover",
         type: "#AVENTURE",
-        description: "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte."
+        description: "Kah lanto c'est une aventure à part entière. Venez vivre 2 semaines dans des paysages sauvages et faites ressortir votre ame de guerrier ! Cela pourrait même vous servir pour vos futures candidatures"
     }
 ];

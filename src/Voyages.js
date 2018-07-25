@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Slider from "react-slick";
 import './Voyages.css';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 import PaypalExpressBtn from 'react-paypal-express-checkout';
 
 import fleche from './images/fleche.svg';
@@ -9,6 +9,7 @@ import fleche from './images/fleche.svg';
 import Data from "./Data-voyages";
 import  {SimpleMap} from "./map";
 import {Menu} from "./Menu";
+import {BoutonBot} from "./Bouton-Bot";
 
 class SimpleSliderAventure extends React.Component {
     render() {
@@ -127,6 +128,7 @@ export class Voyages extends Component {
         if(this.state.page){
             return (
                 <div className="Voyages">
+                    <BoutonBot couleur={false}/>
                     <Menu couleur={false}/>
                     <section style={{ background: Data[2].image2 }}>
                         <h1>#VOYAGES</h1>
@@ -149,6 +151,7 @@ export class Voyages extends Component {
         return (
             <div className="Voyage">
                 <Menu couleur={false}/>
+                <BoutonBot couleur={false}/>
                 <section>
                     <div className="retour">
                         <img src={fleche} alt="retour aux voyages" onClick={this.quitteVoyage}/>

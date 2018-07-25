@@ -9,6 +9,7 @@ import playHover from './images/picto-video2.svg';
 import {Episode} from "./Episode";
 import {Menu} from './Menu';
 import {Live} from "./Live";
+import {BoutonBot} from "./Bouton-Bot";
 
 class SliderEpisode extends React.Component {
     render() {
@@ -109,6 +110,7 @@ export class Ereal extends Component {
     render() {
         if(this.state.cat === 0){
             return <div className="Erealite">
+                <BoutonBot couleur={true}/>
                 <Menu couleur={true}/>
                 <section>
                     <div className="retour">

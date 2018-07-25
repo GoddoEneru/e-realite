@@ -5,12 +5,14 @@ import './App.css';
 import { Home } from './Home';
 import { Voyages } from './Voyages';
 import { Videos } from './Videos';
+import { Bot } from './Bot'
 
 class App extends Component {
   render() {
     return (
         <Router>
           <div className="App">
+              <Route exact path="/Bot" component ={Bot}/>
               <Route exact path="/" component={Home}/>
               <Route exact path="/Voyages" component={Voyages}/>
               <Route exact path="/Videos" component={Videos}/>

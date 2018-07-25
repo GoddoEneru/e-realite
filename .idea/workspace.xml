@@ -2,33 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e607d7d8-2c7e-4556-81e0-b0c3b75ab3ce" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/bot.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/7af3681b77039f00128d293571940aaba7941c3f/Episode.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/7af3681b77039f00128d293571940aaba7941c3f/Episode.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/7af3681b77039f00128d293571940aaba7941c3f/_variables.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/7af3681b77039f00128d293571940aaba7941c3f/_variables.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Episode.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Episode.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Episode.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Episode.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/7af3681b77039f00128d293571940aaba7941c3f/Videos.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/7af3681b77039f00128d293571940aaba7941c3f/Videos.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data-erealite.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data-erealite.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data-voyages.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data-voyages.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Episode.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Episode.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Episode.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Episode.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ErealMobil.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/ErealMobil.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ErealMobil.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/ErealMobil.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Erealite.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Erealite.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Erealite.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Erealite.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Live.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Live.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Live.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Live.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Menu.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ErealMobil.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ErealMobil.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Erealite.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Erealite.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Videos.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Videos.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Videos.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Videos.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Voyages.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Voyages.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Voyages.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Voyages.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Videos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Videos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Videos.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Videos.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Voyages.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Voyages.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/_variables.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -42,11 +30,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Erealite.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Erealite.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="107" lean-forward="true" selection-start-line="107" selection-end-line="107" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+                <element signature="n#SliderEpisode#0" />
+                <element signature="n#SliderMeilleur#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Videos.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Videos.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="502">
+              <caret line="71" column="22" lean-forward="true" selection-start-line="71" selection-start-column="22" selection-end-line="71" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ErealMobil.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ErealMobil.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Videos.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Videos.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="417">
+              <caret line="63" column="26" lean-forward="true" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Voyages.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Voyages.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="655">
-              <caret line="196" column="68" selection-start-line="196" selection-start-column="68" selection-end-line="196" selection-end-column="68" />
+            <state relative-caret-position="508">
+              <caret line="153" column="44" selection-start-line="153" selection-start-column="44" selection-end-line="153" selection-end-column="44" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -54,32 +86,53 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/_variables.scss">
+      <file leaf-file-name="Bouton-Bot.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Bouton-Bot.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+            <state relative-caret-position="68">
+              <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Episode.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Episode.js">
+      <file leaf-file-name="bot.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bot.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="111" column="38" selection-start-line="111" selection-start-column="38" selection-end-line="111" selection-end-column="38" />
+            <state relative-caret-position="34">
+              <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Home.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Home.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="22" column="97" selection-start-line="22" selection-start-column="97" selection-end-line="22" selection-end-column="97" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Data-erealite.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Data-erealite.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="536">
+              <caret line="43" column="40" lean-forward="true" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#0#45#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Episode.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Episode.scss">
+      <file leaf-file-name="Data-voyages.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Data-voyages.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="248" column="21" selection-start-line="248" selection-start-column="21" selection-end-line="248" selection-end-column="21" />
+            <state relative-caret-position="230">
+              <caret line="21" column="222" selection-start-line="21" selection-start-column="222" selection-end-line="21" selection-end-column="222" />
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -106,13 +159,9 @@
         <option value="$PROJECT_DIR$/src/variables.scss" />
         <option value="$PROJECT_DIR$/src/mapStyles.js" />
         <option value="$PROJECT_DIR$/src/Data-vidéos.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/Voyages.css" />
-        <option value="$PROJECT_DIR$/src/Home.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/Videos.js" />
         <option value="$PROJECT_DIR$/src/ErealMobil.scss" />
-        <option value="$PROJECT_DIR$/src/ErealMobil.js" />
         <option value="$PROJECT_DIR$/src/App.scss" />
         <option value="$PROJECT_DIR$/src/Live.scss" />
         <option value="$PROJECT_DIR$/src/Menu.js" />
@@ -122,16 +171,23 @@
         <option value="$PROJECT_DIR$/src/Menu.scss" />
         <option value="$PROJECT_DIR$/src/Live.js" />
         <option value="$PROJECT_DIR$/src/Voyages.scss" />
-        <option value="$PROJECT_DIR$/src/Data-voyages.js" />
-        <option value="$PROJECT_DIR$/src/Data-erealite.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/src/Videos.scss" />
         <option value="$PROJECT_DIR$/src/Erealite.scss" />
-        <option value="$PROJECT_DIR$/src/Erealite.js" />
-        <option value="$PROJECT_DIR$/src/Voyages.js" />
         <option value="$PROJECT_DIR$/src/_variables.scss" />
-        <option value="$PROJECT_DIR$/src/Episode.js" />
         <option value="$PROJECT_DIR$/src/Episode.scss" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/Episode.js" />
+        <option value="$PROJECT_DIR$/src/Erealite.js" />
+        <option value="$PROJECT_DIR$/src/ErealMobil.js" />
+        <option value="$PROJECT_DIR$/src/Voyages.js" />
+        <option value="$PROJECT_DIR$/src/Bot.js" />
+        <option value="$PROJECT_DIR$/src/bot.scss" />
+        <option value="$PROJECT_DIR$/src/Home.js" />
+        <option value="$PROJECT_DIR$/src/Data-erealite.js" />
+        <option value="$PROJECT_DIR$/src/Data-voyages.js" />
+        <option value="$PROJECT_DIR$/src/Bouton-Bot.js" />
+        <option value="$PROJECT_DIR$/src/Videos.scss" />
+        <option value="$PROJECT_DIR$/src/Videos.js" />
       </list>
     </option>
   </component>
@@ -170,11 +226,6 @@
             <path>
               <item name="e-realite" type="b2602c69:ProjectViewProjectNode" />
               <item name="e-realite" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e-realite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e-realite" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="e-realite" type="b2602c69:ProjectViewProjectNode" />
@@ -233,12 +284,12 @@
       <workItem from="1532016366392" duration="4679000" />
       <workItem from="1532335132436" duration="27000" />
       <workItem from="1532353390679" duration="18867000" />
-      <workItem from="1532442370427" duration="23524000" />
+      <workItem from="1532442370427" duration="29472000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="235323000" />
+    <option name="totallyTimeSpent" value="241271000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1719" height="932" extended-state="6" />
@@ -272,36 +323,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Erealite.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" column="30" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Data-vidéos.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1479">
-          <caret line="87" column="6" lean-forward="true" selection-start-line="87" selection-start-column="6" selection-end-line="87" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Erealite.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1598">
-          <caret line="94" column="177" selection-start-line="94" selection-start-column="177" selection-end-line="94" selection-end-column="177" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-            <element signature="n#SliderEpisode#0" />
-            <element signature="n#SliderMeilleur#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -438,13 +463,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Voyages.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -466,13 +484,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="66" lean-forward="true" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="271">
@@ -487,34 +498,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ErealMobil.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Menu.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Bouton-Menu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="139" selection-start-line="6" selection-start-column="139" selection-end-line="6" selection-end-column="139" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -532,13 +519,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Menu.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="42" column="16" lean-forward="true" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Live.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="587">
@@ -553,29 +533,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Data-voyages.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="45" lean-forward="true" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Live.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="41" lean-forward="true" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Data-erealite.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="706">
-          <caret line="85" column="2" lean-forward="true" selection-start-line="85" selection-start-column="2" selection-end-line="85" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -594,13 +557,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Videos.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Erealite.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -608,35 +564,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Erealite.js">
+    <entry file="file://$PROJECT_DIR$/src/Bouton-Menu.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="604">
-          <caret line="137" column="19" selection-start-line="137" selection-start-column="19" selection-end-line="137" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-            <element signature="n#SliderEpisode#0" />
-            <element signature="n#SliderMeilleur#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Voyages.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="655">
-          <caret line="196" column="68" selection-start-line="196" selection-start-column="68" selection-end-line="196" selection-end-column="68" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Videos.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="54" column="14" lean-forward="true" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -647,20 +578,138 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Episode.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Episode.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="111" column="38" selection-start-line="111" selection-start-column="38" selection-end-line="111" selection-end-column="38" />
+        <state relative-caret-position="233">
+          <caret line="117" column="42" selection-start-line="117" selection-start-column="42" selection-end-line="117" selection-end-column="42" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Episode.scss">
+    <entry file="file://$PROJECT_DIR$/src/Menu.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="248" column="21" selection-start-line="248" selection-start-column="21" selection-end-line="248" selection-end-column="21" />
+        <state relative-caret-position="-1181">
+          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Bot.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bot.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="22" column="97" selection-start-line="22" selection-start-column="97" selection-end-line="22" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data-erealite.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="43" column="40" lean-forward="true" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data-voyages.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="21" column="222" selection-start-line="21" selection-start-column="222" selection-end-line="21" selection-end-column="222" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Bouton-Bot.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Voyages.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="153" column="44" selection-start-line="153" selection-start-column="44" selection-end-line="153" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Videos.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="63" column="26" lean-forward="true" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Erealite.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="107" lean-forward="true" selection-start-line="107" selection-end-line="107" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+            <element signature="n#SliderEpisode#0" />
+            <element signature="n#SliderMeilleur#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ErealMobil.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Videos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="71" column="22" lean-forward="true" selection-start-line="71" selection-start-column="22" selection-end-line="71" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

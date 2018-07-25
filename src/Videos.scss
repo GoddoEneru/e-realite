@@ -67,3 +67,15 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .Videos{
+    padding-left: 0px;
+    section{
+      article{
+        width: 100%;
+        margin-right: 0;
+      }
+    }
+  }
+}

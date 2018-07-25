@@ -1,0 +1,46 @@
+@import './_variables.scss';
+
+.Bot{
+  position: fixed; left:0; right:0; bottom:0; top:0; border:0;
+}
+
+.boutonBot{
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #ffffff;
+  border-radius: 25px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 10px rgba( 0, 0, 0, 0.2);
+  right: 25px;
+  bottom: 25px;
+  z-index: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  &.BotBleu{
+    background: $bleu;
+    transition: 0.2s ease-in-out;
+    &:hover{
+      background: $bleuc;
+    }
+  }
+  &.BotRouge{
+    background: $rouge;
+    transition: 0.2s ease-in-out;
+    &:hover{
+      background: $rougec;
+    }
+  }
+  img{
+    width: 25px;
+    height: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .boutonBot{
+    bottom: 90px;
+  }
+}

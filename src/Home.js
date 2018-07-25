@@ -11,16 +11,16 @@ export class Home extends Component {
                 <section>
                     <p>Découvrez nos voyages !</p>
                     <div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At commodi corporis dolor ea fugit impedit molestiae molestias, natus nulla quae quas quidem sed voluptate. Atque expedita inventore minima placeat quidem!</p>
-                        <Link to="/Voyages">bouton</Link>
+                        <p>Des voyages organisés pour les fans de téléréalité</p>
+                        <Link to="/Voyages">VOIR PLUS</Link>
                     </div>
                     <img src={backvoyage} alt="catégorie voyage"/>
                 </section>
                 <section>
                     <p>Regardez nos vidéos !</p>
                     <div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At commodi corporis dolor ea fugit impedit molestiae molestias, natus nulla quae quas quidem sed voluptate. Atque expedita inventore minima placeat quidem!</p>
-                        <Link to={{ pathname: '/Videos', state: { page: true, id: 0} }}>bouton</Link>
+                        <p>Des e-réalités filmées grâce à vous !</p>
+                        <Link to={{ pathname: '/Videos', state: { page: true, id: 0} }}>VOIR PLUS</Link>
                     </div>
                     <img src={backvideo} alt="catégorie vidéo"/>
                 </section>

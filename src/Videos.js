@@ -5,6 +5,8 @@ import Data from "./Data-erealite";
 import { Ereal } from "./Erealite";
 import {Menu} from './Menu';
 import {ErealMobil} from "./ErealMobil";
+import {BoutonMenu} from "./Bouton-Menu";
+import {BoutonBot} from "./Bouton-Bot";
 
 export class Videos extends Component {
     state = {page: this.props.location.state.page, id : this.props.location.state.id};
@@ -26,7 +28,7 @@ export class Videos extends Component {
         });
     };
 
-    ErealiteMobile = () => {;
+    ErealiteMobile = () => {
         if(window.innerWidth <  768){
             this.setState( () => {
                 return{
@@ -51,12 +53,18 @@ export class Videos extends Component {
 
         if(this.state.page === true && this.state.id === 100){
             return (
-                <ErealMobil/>
-            );
+                <div>
+                    <BoutonBot couleur={true}/>
+                    <Menu couleur={true}/>
+                    <ErealMobil/>
+                </div>
+            )
         }
+
         if(this.state.page){
             return (
                 <div className="Videos" onLoad={this.ErealiteMobile}>
+                    <BoutonBot couleur={true}/>
                     <Menu couleur={true}/>
                     <section>
                         {Erealite}
